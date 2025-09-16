@@ -1,0 +1,65 @@
+version: '0.1'
+appium: false
+autosplit: true
+cacheDirectories:
+- CacheDir
+cacheKey: '{{ checksum "requirements.txt" }}'
+combineTasksInMatrixMode: true
+concurrency: 150
+parallelism: 150
+testSuiteTimeout: 250
+maxRetries: 1
+retryOnFailure: true
+shell: bash
+testSuiteStep: 90
+
+env:
+  ACCESSIBILITY: 'false'
+  ATMS_URL: https://test-manager-api.lambdatest.com
+  AUTOMIND_URL: https://kaneai-api.lambdatest.com
+  BUILD: 1000 + Test Run 
+  CONSOLE: 'false'
+  HYE_HUB: hub.lambdatest.com
+  NETWORK: 'false'
+  ORG_ID: '1665294'
+  PLAN: 'true'
+  PYTHONUNBUFFERED: '1'
+  REQUEST_ID: '1665294'
+  TEST_RUN_ID: 01K590QGQK8DGQRS57R1WQQ7R8-web
+
+differentialUpload:
+  enabled: true
+
+globalTimeout: 250
+
+jobLabel:
+- Morgan HyperExecute
+
+matrix:
+  os:
+  - win
+  - linux
+  - win11
+
+runson: ${matrix.os}
+
+runtime:
+  language: python
+  version: 3.11.9
+
+pre:
+- pip3 install selenium==4.17.2  python-json-logger==2.0.7 httpx==0.27.0 pyotp==2.9.0  requests
+  Appium-Python-Client==4.0.1 pydantic==2.8.2 pydantic_core==2.20.1 lxml==5.2.1 Pillow==11.0.0
+  requests==2.28.2 botocore==1.38.17 boto3==1.38.17 lambdatest-selenium-driver --cache-dir CacheDir
+- python3 setup_web.py pre ${TEST_RUN_ID}.json
+- pwd
+
+
+testDiscovery:
+  command: python3 setup_web.py discovery ${TEST_RUN_ID}.json
+  mode: remote
+  type: raw
+
+winTestRunnerCommand: .\run.bat '$test'
+linuxTestRunnerCommand: ./run.sh '$test'
+macTestRunnerCommand: ./run.sh '$test'
