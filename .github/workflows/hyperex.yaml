@@ -1,0 +1,70 @@
+name: Run HyperExecute
+
+on:
+  workflow_dispatch:
+    inputs:
+      concurrency:
+        description: "Number of parallel runners for HyperExecute"
+        required: true
+        default: "50"
+      HYPEREXEC_USERNAME:
+        description: "HyperExecute Username"
+        required: true
+        default: "ltuser"
+      HYPEREXEC_ACCESS_KEY:
+        description: "HyperExecute Access Key"
+        required: true
+        default: "ltaccesskey"
+
+jobs:
+  hyperexecute-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Download HyperExecute CLI (Linux)
+        run: |
+          curl -fsSL -o hyperexecute https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute
+
+      - name: Make CLI executable
+        run: chmod +x ./hyperexecute
+
+      - name: Run HyperExecute
+        id: run-he
+        env:
+          HYPEREXEC_USERNAME: ${{ github.event.inputs.HYPEREXEC_USERNAME }}
+          HYPEREXEC_ACCESS_KEY: ${{ github.event.inputs.HYPEREXEC_ACCESS_KEY }}
+          CONCURRENCY: ${{ github.event.inputs.concurrency }}
+        run: |
+          set -euo pipefail
+          # Run and capture output
+          ./hyperexecute \
+            -u "${HYPEREXEC_USERNAME}" \
+            -k "${HYPEREXEC_ACCESS_KEY}" \
+            --config YAMLs/hyperexecute.yaml \
+            --concurrency "${CONCURRENCY}" \
+            --no-track \
+            2>&1 | tee he_output.log
+
+          # Extract job link (strip any ANSI codes just in case)
+          JOB_LINK=$(sed -e 's/\x1b\[[0-9;]*m//g' he_output.log | awk '/^Job Link:/ {print $3}' | tail -n1)
+
+          if [ -n "${JOB_LINK:-}" ]; then
+            echo "job_link=${JOB_LINK}" >> "$GITHUB_OUTPUT"
+          else
+            echo "No Job Link found in output." >&2
+            exit 1
+          fi
+
+      - name: Add Job Link to Summary
+        if: success() && steps.run-he.outputs.job_link != ''
+        env:
+          JOB_LINK: ${{ steps.run-he.outputs.job_link }}
+        run: |
+          {
+            echo "### HyperExecute Job"
+            echo ""
+            echo "- ✅ Triggered: [Open Job](${JOB_LINK})"
+          } >> "$GITHUB_STEP_SUMMARY"

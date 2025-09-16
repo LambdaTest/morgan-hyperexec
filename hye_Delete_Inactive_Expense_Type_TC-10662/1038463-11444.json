@@ -1,0 +1,1880 @@
+{
+    "max_network_wait": 10,
+    "network_wait_for_all_actions": true,
+    "wait_buffer": 0.2,
+    "410579e1-c957-41d9-b25c-91ac8457c707_0": {
+        "0": {
+            "operation_intent": "navigate to 'https://orange-hrm.lambdatestinternal.com/orangehrm-5.7'",
+            "operation_type": "OPEN",
+            "url": "https://orange-hrm.lambdatestinternal.com/orangehrm-5.7",
+            "instruction_id": "f21df564a3b64853a0288e70e208571d",
+            "operation_id": "5337a93baa6d408e",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 12:23:10.706463",
+            "operation_end": "2025-09-13 12:23:13.608987",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"navigate to 'https://orange-hrm.lambdatestinternal.com/orangehrm-5.7'\", \"thought\": \"Navigate the browser to the specified URL 'https://orange-hrm.lambdatestinternal.com/orangehrm-5.7'.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"OPEN\", \"url\": \"https://orange-hrm.lambdatestinternal.com/orangehrm-5.7\", \"operation_intent\": \"navigate to 'https://orange-hrm.lambdatestinternal.com/orangehrm-5.7'\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 0,
+            "global_operation_index": 0,
+            "module_version": 1.1,
+            "is_replace": "true"
+        },
+        "1": {
+            "operation_intent": "Query 'Username input box' visibility",
+            "locator": [
+                ""
+            ],
+            "operation_type": "VISUAL_QUERY",
+            "query_variable_name": "Username_input_box_visible",
+            "query_info_dict": {
+                "name": "Username input box",
+                "type": "Web Element",
+                "attributes_dict": {},
+                "selected_attribute_name": "displayed",
+                "use_prompt_query_response": false,
+                "custom_data_hook_flag": false,
+                "custom_data_hook_name": ""
+            },
+            "use_query_v2": true,
+            "vision_query_url": "https://kaneai-api.lambdatest.com",
+            "version": "v1",
+            "instruction_id": "631e6fe33e6c4bef82306ba0a8e30aa6",
+            "operation_id": "c255ecbb766c4b3d",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 12:23:21.644130",
+            "operation_end": "2025-09-13 12:23:21.671697",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Query 'Username input box' visibility\", \"thought\": \"Check if the 'Username input box' is visible on the viewport.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"VISION_QUERY\", \"variable_name\": \"Username_input_box_visible\", \"element\": \"Username input box\", \"operation_intent\": \"Query 'Username input box' visibility\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 1,
+            "global_operation_index": 1,
+            "module_version": 1.1,
+            "is_replace": "true"
+        },
+        "2": {
+            "operation_intent": "set the value of variable 'assertion_operand_631e6fe33e6c4bef82306ba0a8e30aa6_0' to true",
+            "operation_type": "SET_VARIABLE",
+            "instruction_id": "631e6fe33e6c4bef82306ba0a8e30aa6",
+            "operation_id": "b59df9d34a7f4885",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[{\"name\": \"assertion_operand_631e6fe33e6c4bef82306ba0a8e30aa6_0\", \"value\": \"true\", \"value_type\": \"string\"}]",
+            "operation_start": "2025-09-13 12:23:22.258837",
+            "operation_end": "2025-09-13 12:23:22.336250",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"set the value of variable 'assertion_operand_631e6fe33e6c4bef82306ba0a8e30aa6_0' to true\", \"thought\": \"Setting the value of variable 'assertion_operand_631e6fe33e6c4bef82306ba0a8e30aa6_0' to true requires setting the value of the variable, which can be done by the Operation Agent.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"SET_VARIABLE\", \"variable_name\": \"assertion_operand_631e6fe33e6c4bef82306ba0a8e30aa6_0\", \"variable_value\": \"true\", \"operation_intent\": \"set the value of variable 'assertion_operand_631e6fe33e6c4bef82306ba0a8e30aa6_0' to true\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 2,
+            "global_operation_index": 2,
+            "module_version": 1.1,
+            "is_replace": "true"
+        },
+        "3": {
+            "operation_intent": "Assert 'Username input box' is visible",
+            "operation_type": "ASSERTION",
+            "assertion_tree": {
+                "operator": "equals",
+                "left_operand": {
+                    "Username_input_box_visible": "runtime_variable"
+                },
+                "right_operand": {
+                    "assertion_operand_631e6fe33e6c4bef82306ba0a8e30aa6_0": "runtime_variable"
+                },
+                "transform_operands": []
+            },
+            "use_assertion_v2": true,
+            "query_variable_name": "",
+            "assertion": "Assert 'Username input box' is visible",
+            "string_to_float": false,
+            "operator": [
+                ""
+            ],
+            "expected_value": "",
+            "instruction_id": "631e6fe33e6c4bef82306ba0a8e30aa6",
+            "operation_id": "1a4179f40ce24265",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 12:23:22.973204",
+            "operation_end": "2025-09-13 12:23:23.304993",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "Fail test immediately",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Assert 'Username input box' is visible\", \"thought\": \"Verify the 'Username input box' is visible on the viewport.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"ASSERTION\", \"assertion_tree\": {\"operator\": \"equals\", \"left_operand\": {\"Username_input_box_visible\": \"runtime_variable\"}, \"right_operand\": {\"assertion_operand_631e6fe33e6c4bef82306ba0a8e30aa6_0\": \"runtime_variable\"}, \"transform_operands\": []}, \"operation_intent\": \"Assert 'Username input box' is visible\"}, \"params\": {\"assertion_tree\": {\"operator\": \"equals\", \"left_operand\": {\"Username_input_box_visible\": \"runtime_variable\"}, \"right_operand\": {\"assertion_operand_631e6fe33e6c4bef82306ba0a8e30aa6_0\": \"runtime_variable\"}, \"transform_operands\": []}, \"operation_intent\": \"Assert 'Username input box' is visible\"}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 3,
+            "global_operation_index": 3,
+            "module_version": 1.1
+        },
+        "4": {
+            "operation_intent": "type 'pushpa.raj' in Username",
+            "locator": [
+                "//html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input"
+            ],
+            "operation_type": "TYPE",
+            "value": "pushpa.raj",
+            "multiple_inputs": false,
+            "instruction_id": "e5737682d29b4b81806df8b2cd7861fa",
+            "operation_id": "c26691e166c24c14",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 12:23:30.396147",
+            "operation_end": "2025-09-13 12:23:31.455447",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "frameInfo": [],
+                "locators": [
+                    {
+                        "isXPath": false,
+                        "score": 90,
+                        "selector": "[placeholder=\"Username\"][name=\"username\"]"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 85,
+                        "selector": "[placeholder=\"Username\"]"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 85,
+                        "selector": "[name=\"username\"]"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 85,
+                        "selector": "//input[@placeholder='Username' and @name='username']"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 80,
+                        "selector": ".oxd-input--focus"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 50,
+                        "selector": "//input[starts-with(@placeholder,'Usern')]"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 40,
+                        "selector": "//input[contains(@class,'oxd-input--focus')]"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 40,
+                        "selector": "//input[contains(@placeholder,'Username')]"
+                    }
+                ]
+            },
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"type 'pushpa.raj' in Username\", \"thought\": \"Enter the value 'pushpa.raj' into the 'Username' field.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"TYPE\", \"value\": \"pushpa.raj\", \"element\": \"Username\", \"operation_intent\": \"type 'pushpa.raj' in Username\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 4,
+            "global_operation_index": 4,
+            "module_version": 1.1,
+            "is_replace": "true"
+        },
+        "5": {
+            "operation_intent": "type ******************* in Password input field",
+            "locator": [
+                "//html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[2]/div/div[2]/input"
+            ],
+            "operation_type": "TYPE",
+            "value": "0NkLWCMXdAnZ45LJ@#2",
+            "multiple_inputs": false,
+            "instruction_id": "d6a94bb35ac843e9a7301920af79bf3a",
+            "operation_id": "fcfe526cb9e1496c",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 12:23:37.936090",
+            "operation_end": "2025-09-13 12:23:38.936968",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "frameInfo": [],
+                "locators": [
+                    {
+                        "isXPath": true,
+                        "score": 95,
+                        "selector": "//input[@name='password' and @type='password']"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 90,
+                        "selector": "[placeholder=\"Password\"][name=\"password\"]"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 90,
+                        "selector": "[placeholder=\"Password\"][type=\"password\"]"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 90,
+                        "selector": "[name=\"password\"][type=\"password\"]"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 85,
+                        "selector": "[placeholder=\"Password\"]"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 85,
+                        "selector": "//input[@placeholder='Password' and @type='password']"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 85,
+                        "selector": "//input[@placeholder='Password' and @name='password']"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 40,
+                        "selector": "//input[contains(@placeholder,'Password')]"
+                    }
+                ]
+            },
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"type '0NkLWCMXdAnZ45LJ@#2' in Password\", \"thought\": \"Enter the given password into the 'Password' field.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"TYPE\", \"value\": \"0NkLWCMXdAnZ45LJ@#2\", \"element\": \"Password\", \"operation_intent\": \"type '0NkLWCMXdAnZ45LJ@#2' in Password\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 5,
+            "global_operation_index": 5,
+            "module_version": 1.1,
+            "is_replace": "true"
+        },
+        "6": {
+            "operation_intent": "Click 'Login'",
+            "locator": [
+                "//html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "45b5951dfe93448ab5c87e25298f2efd",
+            "operation_id": "4e9d0a7a2afb46b6",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 12:23:46.036751",
+            "operation_end": "2025-09-13 12:23:46.494721",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "frameInfo": [],
+                "locators": [
+                    {
+                        "isXPath": false,
+                        "score": 85,
+                        "selector": "[type=\"submit\"]"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 80,
+                        "selector": ".oxd-button--medium"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 80,
+                        "selector": ".oxd-button--main"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 80,
+                        "selector": ".oxd-button--medium.oxd-button--main"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 50,
+                        "selector": "//button[starts-with(@type,'submi')]"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 40,
+                        "selector": "//button[contains(@class,'oxd-button--medium')]"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 40,
+                        "selector": "//button[contains(@type,'submit')]"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 40,
+                        "selector": "//button[contains(@class,'oxd-button--main')]"
+                    }
+                ]
+            },
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click 'Login'\", \"thought\": \"Tap the element labeled 'Login'.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\", \"element\": \"Login\", \"operation_intent\": \"Click 'Login'\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 6,
+            "global_operation_index": 6,
+            "module_version": 1.1,
+            "is_replace": "true"
+        },
+        "7": {
+            "operation_intent": "wait 3 seconds",
+            "operation_type": "WAIT",
+            "value": 3,
+            "instruction_id": "1ef26d77bacd43bb9024747b528c14c4",
+            "operation_id": "90264d18d9cc4bc0",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 12:23:52.721374",
+            "operation_end": "2025-09-13 12:23:56.048999",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"wait 3 seconds\", \"thought\": \"Pause execution for '3' seconds as requested.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"WAIT\", \"duration\": 3, \"operation_intent\": \"wait 3 seconds\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 7,
+            "global_operation_index": 7,
+            "module_version": 1.1,
+            "is_replace": "true"
+        }
+    },
+    "main_flow": {
+        "0": {
+            "operation_intent": "Click on 'Claim' menu item in the left sidebar",
+            "locator": [
+                "//nav[@role='navigation' and @aria-label='Sidepanel']/div[2]/ul[1]/li[11]/a[1]/span[1]",
+                "//nav[@role='navigation' and @aria-label='Sidepanel']/div[2]/ul[1]/li[11]/a[1]/span[1]",
+                "//span[text()='Claim']"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "6877665104f64d55b46078ad46539ad2",
+            "operation_id": "e4568163c3b64c60",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 17:54:50.722000",
+            "operation_end": "2025-09-13 12:24:53.066253",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": "//nav[@role='navigation' and @aria-label='Sidepanel']/div[2]/ul[1]/li[11]/a[1]/span[1]",
+                        "score": 70,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//span[text()='Claim']",
+                        "score": 65,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "[aria-label=\"Sidepanel\"] > div:nth-child(2) > ul:nth-child(2) > li:nth-child(11) > a:nth-child(1) > span:nth-child(2)",
+                        "score": 35,
+                        "isXPath": false
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "4x",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on 'Claim' menu item in the left sidebar\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 8,
+            "global_operation_index": 8,
+            "is_replace": "true"
+        },
+        "1": {
+            "operation_intent": "Click on 'Configuration' dropdown in top left nav bar",
+            "locator": [
+                "//span[contains(text(),'Configuration')]",
+                "//span[contains(text(),'Configuration')]",
+                "//li[contains(@class,'--parent')]/span[1]",
+                "//span[contains(@class,'oxd-topbar-body-nav-tab-item')]",
+                "//li[contains(@class,'oxd-topbar-body-nav-tab') and contains(@class,'--parent')]/span[1]"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "d42f0dbcd90e4106a98efdf6e03353f8",
+            "operation_id": "46091c1d4b994adc",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 17:54:55.933000",
+            "operation_end": "2025-09-13 12:24:57.972540",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": "span.oxd-topbar-body-nav-tab-item",
+                        "score": 80,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".--parent > span",
+                        "score": 80,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-topbar-body-nav-tab.--parent > span",
+                        "score": 80,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".--parent > span:nth-child(1)",
+                        "score": 75,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//span[contains(text(),'Configuration')]",
+                        "score": 50,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//li[contains(@class,'--parent')]/span[1]",
+                        "score": 40,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//span[contains(@class,'oxd-topbar-body-nav-tab-item')]",
+                        "score": 30,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//li[contains(@class,'oxd-topbar-body-nav-tab') and contains(@class,'--parent')]/span[1]",
+                        "score": 25,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "6v",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on 'Configuration' dropdown in top left nav bar\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 9,
+            "global_operation_index": 9,
+            "is_replace": "true"
+        },
+        "2": {
+            "operation_intent": "Click on 'Expense Types' menu item in the top left dropdown",
+            "locator": [
+                "//a[text()='Expense Types']",
+                "//a[text()='Expense Types']",
+                "//a[contains(text(),'Expense Types')]",
+                "//li[contains(@class,'--parent')]/ul[1]/li[2]/a[1]",
+                "//li[contains(@class,'oxd-topbar-body-nav-tab') and contains(@class,'--parent')]/ul[1]/li[2]/a[1]"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "b557853ace7e4519960669bb2bff92ce",
+            "operation_id": "2b8254e2ac584836",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 17:54:57.058000",
+            "operation_end": "2025-09-13 12:24:59.436431",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": ".--parent > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)",
+                        "score": 65,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".--parent > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)",
+                        "score": 65,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//a[text()='Expense Types']",
+                        "score": 65,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//a[contains(text(),'Expense Types')]",
+                        "score": 50,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//li[contains(@class,'--parent')]/ul[1]/li[2]/a[1]",
+                        "score": 35,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//li[contains(@class,'oxd-topbar-body-nav-tab') and contains(@class,'--parent')]/ul[1]/li[2]/a[1]",
+                        "score": 20,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "9d",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on 'Expense Types' menu item in the top left dropdown\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 10,
+            "global_operation_index": 10,
+            "is_replace": "true"
+        },
+        "3": {
+            "operation_intent": "Click on the Name input field with placeholder 'Type for hints...'",
+            "locator": [
+                "//input[starts-with(@placeholder,'Type ')]",
+                "//input[starts-with(@placeholder,'Type ')]",
+                "//div[contains(@class,'oxd-autocomplete-text-input--focus')]/input[1]",
+                "//input[contains(@placeholder,'Type for hints...')]",
+                "//div[contains(@class,'oxd-autocomplete-text-input--focus')]/input[1]"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "50bb6caa4a124cbc94ffd0b22ce05751",
+            "operation_id": "1fa8f61eddf7486a",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 17:55:01.681000",
+            "operation_end": "2025-09-13 12:25:03.594194",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": "[placeholder=\"Type for hints...\"]",
+                        "score": 85,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-autocomplete-text-input--focus > input",
+                        "score": 80,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-autocomplete-text-input--before + input",
+                        "score": 70,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "input:has(+ .oxd-autocomplete-text-input--after)",
+                        "score": 70,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//input[starts-with(@placeholder,'Type ')]",
+                        "score": 50,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-autocomplete-text-input--focus')]/input[1]",
+                        "score": 30,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//input[contains(@placeholder,'Type for hints...')]",
+                        "score": 30,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-autocomplete-text-input--focus')]/input[1]",
+                        "score": 30,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "jh",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on the Name input field with placeholder 'Type for hints...'\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 11,
+            "global_operation_index": 11,
+            "is_replace": "true"
+        },
+        "4": {
+            "operation_intent": "Type in expense type name input field with placeholder 'Type for hints...' 'inacti'",
+            "locator": [
+                "//input[starts-with(@placeholder,'Type ')]",
+                "//input[starts-with(@placeholder,'Type ')]",
+                "//div[contains(@class,'oxd-autocomplete-text-input--focus')]/input[1]",
+                "//input[contains(@placeholder,'Type for hints...')]",
+                "//div[contains(@class,'oxd-autocomplete-text-input--focus')]/input[1]"
+            ],
+            "operation_type": "INPUT",
+            "value": "inacti",
+            "multiple_inputs": false,
+            "instruction_id": "cce1a4a4f1a342a99113236e24ac3960",
+            "operation_id": "593443b8701a4d85",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 17:55:02.474000",
+            "operation_end": "2025-09-13 12:25:04.728983",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": "[placeholder=\"Type for hints...\"]",
+                        "score": 85,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-autocomplete-text-input--focus > input",
+                        "score": 80,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-autocomplete-text-input--before + input",
+                        "score": 70,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "input:has(+ .oxd-autocomplete-text-input--after)",
+                        "score": 70,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//input[starts-with(@placeholder,'Type ')]",
+                        "score": 50,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-autocomplete-text-input--focus')]/input[1]",
+                        "score": 30,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//input[contains(@placeholder,'Type for hints...')]",
+                        "score": 30,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-autocomplete-text-input--focus')]/input[1]",
+                        "score": 30,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "kq",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Type in expense type name input field with placeholder 'Type for hints...' 'inacticve'\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"INPUT\"}}",
+            "_original_index": 12,
+            "global_operation_index": 12,
+            "is_replace": "true"
+        },
+        "5": {
+            "operation_intent": "Click on the status dropdown caret up icon",
+            "locator": [
+                "//i[contains(@class,'oxd-select-text--arrow')]",
+                "//i[contains(@class,'oxd-select-text--arrow')]",
+                "//div[contains(@class,'oxd-select-text--after')]/i[1]",
+                "//div[contains(@class,'oxd-select-text--after')]/i[1]"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "b6a2d2b675a54cc583191f7c84fa8e1c",
+            "operation_id": "195c864db05a4224",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 17:55:16.655000",
+            "operation_end": "2025-09-13 12:25:18.783105",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": ".oxd-select-text--arrow",
+                        "score": 80,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-select-text--after > i",
+                        "score": 80,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-select-text--after > i:nth-child(1)",
+                        "score": 75,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-select-text--after > i:nth-child(1)",
+                        "score": 75,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//i[contains(@class,'oxd-select-text--arrow')]",
+                        "score": 40,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-select-text--after')]/i[1]",
+                        "score": 30,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-select-text--after')]/i[1]",
+                        "score": 30,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "ci",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on the status dropdown caret up icon\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 13,
+            "global_operation_index": 13,
+            "is_replace": "true"
+        },
+        "6": {
+            "operation_intent": "Click on the Search button in Expense Types section",
+            "locator": [
+                "//div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[2]/form[1]/div[2]/button[2]",
+                "//div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[2]/form[1]/div[2]/button[2]",
+                "//button[starts-with(@type,'submi')]",
+                "//button[contains(@type,'submit')]"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "944e3c2ff646427b80f3228400b87502",
+            "operation_id": "f254145bdc3b4394",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 17:55:19.152000",
+            "operation_end": "2025-09-13 12:25:21.079546",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": "[type=\"submit\"]",
+                        "score": 85,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-button--ghost + button",
+                        "score": 70,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-button--medium.oxd-button--ghost + button",
+                        "score": 70,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[2]/form[1]/div[2]/button[2]",
+                        "score": 70,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "#app > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > form:nth-child(1) > div:nth-child(3) > button:nth-child(2)",
+                        "score": 65,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//button[starts-with(@type,'submi')]",
+                        "score": 50,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//button[contains(@type,'submit')]",
+                        "score": 40,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "hx",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on the Search button in Expense Types section\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 14,
+            "global_operation_index": 14,
+            "is_replace": "true"
+        },
+        "7": {
+            "operation_intent": "Query text '(1) Record Found' visibility",
+            "locator": [
+                ""
+            ],
+            "operation_type": "VISUAL_QUERY",
+            "query_variable_name": "record_found_visible",
+            "query_info_dict": {
+                "name": "(1) Record Found text",
+                "type": "Web Element",
+                "attributes_dict": {},
+                "selected_attribute_name": "displayed",
+                "use_prompt_query_response": false,
+                "custom_data_hook_flag": false,
+                "custom_data_hook_name": ""
+            },
+            "use_query_v2": true,
+            "vision_query_url": "https://kaneai-api.lambdatest.com",
+            "version": "v1",
+            "instruction_id": "9d6ae09f5b454ecf9c5131bdfe503641",
+            "operation_id": "b001755b33184402",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 12:25:33.850192",
+            "operation_end": "2025-09-13 12:25:33.929261",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Query text '(1) Record Found' visibility\", \"thought\": \"Check if the text '(1) Record Found' is visible on the page.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"VISION_QUERY\", \"variable_name\": \"record_found_visible\", \"element\": \"(1) Record Found\", \"operation_intent\": \"Query text '(1) Record Found' visibility\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 15,
+            "global_operation_index": 15,
+            "is_replace": "true"
+        },
+        "8": {
+            "operation_intent": "set the value of variable 'assertion_operand_9d6ae09f5b454ecf9c5131bdfe503641_0' to true",
+            "operation_type": "SET_VARIABLE",
+            "instruction_id": "9d6ae09f5b454ecf9c5131bdfe503641",
+            "operation_id": "74ca8ded80d547bd",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[{\"name\": \"assertion_operand_9d6ae09f5b454ecf9c5131bdfe503641_0\", \"value\": \"true\", \"value_type\": \"string\"}]",
+            "operation_start": "2025-09-13 12:25:34.681916",
+            "operation_end": "2025-09-13 12:25:34.759149",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"set the value of variable 'assertion_operand_9d6ae09f5b454ecf9c5131bdfe503641_0' to true\", \"thought\": \"Setting the value of variable 'assertion_operand_9d6ae09f5b454ecf9c5131bdfe503641_0' to true requires setting the value of the variable, which can be done by the Operation Agent.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"SET_VARIABLE\", \"variable_name\": \"assertion_operand_9d6ae09f5b454ecf9c5131bdfe503641_0\", \"variable_value\": \"true\", \"operation_intent\": \"set the value of variable 'assertion_operand_9d6ae09f5b454ecf9c5131bdfe503641_0' to true\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 16,
+            "global_operation_index": 16,
+            "is_replace": "true"
+        },
+        "9": {
+            "operation_intent": "Assert text '(1) Record Found' is visible",
+            "operation_type": "ASSERTION",
+            "assertion_tree": {
+                "operator": "equals",
+                "left_operand": {
+                    "record_found_visible": "runtime_variable"
+                },
+                "right_operand": {
+                    "assertion_operand_9d6ae09f5b454ecf9c5131bdfe503641_0": "runtime_variable"
+                },
+                "transform_operands": []
+            },
+            "use_assertion_v2": true,
+            "query_variable_name": "",
+            "assertion": "Assert text '(1) Record Found' is visible",
+            "string_to_float": false,
+            "operator": [
+                ""
+            ],
+            "expected_value": "",
+            "instruction_id": "9d6ae09f5b454ecf9c5131bdfe503641",
+            "operation_id": "4b624f85ea9a488f",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 12:25:35.467675",
+            "operation_end": "2025-09-13 12:25:35.780946",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "Fail test immediately",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Assert text '(1) Record Found' is visible\", \"thought\": \"Verify that the text '(1) Record Found' is present and visible on the page.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"ASSERTION\", \"assertion_tree\": {\"operator\": \"equals\", \"left_operand\": {\"record_found_visible\": \"runtime_variable\"}, \"right_operand\": {\"assertion_operand_9d6ae09f5b454ecf9c5131bdfe503641_0\": \"runtime_variable\"}, \"transform_operands\": []}, \"operation_intent\": \"Assert text '(1) Record Found' is visible\"}, \"params\": {\"assertion_tree\": {\"operator\": \"equals\", \"left_operand\": {\"record_found_visible\": \"runtime_variable\"}, \"right_operand\": {\"assertion_operand_9d6ae09f5b454ecf9c5131bdfe503641_0\": \"runtime_variable\"}, \"transform_operands\": []}, \"operation_intent\": \"Assert text '(1) Record Found' is visible\"}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 17,
+            "global_operation_index": 17
+        },
+        "10": {
+            "operation_intent": "Click on the checkbox for Inactive Expense name in the records list",
+            "locator": [
+                "//div[contains(@class,'oxd-table-card-cell-checkbox')]/div[1]/label[1]/span[1]/i[1]",
+                "//div[contains(@class,'oxd-table-card-cell-checkbox')]/div[1]/label[1]/span[1]/i[1]",
+                "//div[contains(@class,'oxd-table-card-cell-checkbox')]/div[1]/label[1]/span[1]/i[1]"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "056801a58d5b4571ad4bfe655c882399",
+            "operation_id": "af72375bdb7c4877",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 17:55:51.225000",
+            "operation_end": "2025-09-13 12:25:53.539130",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": ".oxd-table-card-cell-checkbox > div:nth-child(1) > label:nth-child(1) > span:nth-child(2) > i:nth-child(1)",
+                        "score": 55,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-table-card-cell-checkbox > div:nth-child(1) > label:nth-child(1) > span:nth-child(2) > i:nth-child(1)",
+                        "score": 55,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-table-card-cell-checkbox')]/div[1]/label[1]/span[1]/i[1]",
+                        "score": 15,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-table-card-cell-checkbox')]/div[1]/label[1]/span[1]/i[1]",
+                        "score": 15,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "cb",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on the checkbox for Inactive Expense name in the records list\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 18,
+            "global_operation_index": 18,
+            "is_replace": "true"
+        },
+        "11": {
+            "operation_intent": "Query 'Deleted Selected' text visibility",
+            "locator": [
+                ""
+            ],
+            "operation_type": "VISUAL_QUERY",
+            "query_variable_name": "Deleted_Selected_visible",
+            "query_info_dict": {
+                "name": "'Delete Selected' text",
+                "type": "Web Element",
+                "attributes_dict": {},
+                "selected_attribute_name": "displayed",
+                "use_prompt_query_response": false,
+                "custom_data_hook_flag": false,
+                "custom_data_hook_name": ""
+            },
+            "use_query_v2": true,
+            "vision_query_url": "https://kaneai-api.lambdatest.com",
+            "version": "v1",
+            "instruction_id": "9995b11d2c204c0483a2f94f434e0015",
+            "operation_id": "c4e497b2f3c04e92",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 12:26:05.213934",
+            "operation_end": "2025-09-13 12:26:05.320719",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Query 'Deleted Selected' text visibility\", \"thought\": \"Check if the text 'Deleted Selected' is visible on the screen.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"VISION_QUERY\", \"variable_name\": \"Deleted_Selected_visible\", \"element\": \"Deleted Selected\", \"operation_intent\": \"Query 'Deleted Selected' text visibility\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 19,
+            "global_operation_index": 19,
+            "is_replace": "true"
+        },
+        "12": {
+            "operation_intent": "set the value of variable 'assertion_operand_9995b11d2c204c0483a2f94f434e0015_0' to true",
+            "operation_type": "SET_VARIABLE",
+            "instruction_id": "9995b11d2c204c0483a2f94f434e0015",
+            "operation_id": "04fafb3ed9104f2a",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[{\"name\": \"assertion_operand_9995b11d2c204c0483a2f94f434e0015_0\", \"value\": \"true\", \"value_type\": \"string\"}]",
+            "operation_start": "2025-09-13 12:26:05.956842",
+            "operation_end": "2025-09-13 12:26:06.037698",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"set the value of variable 'assertion_operand_9995b11d2c204c0483a2f94f434e0015_0' to true\", \"thought\": \"Setting the value of variable 'assertion_operand_9995b11d2c204c0483a2f94f434e0015_0' to true requires setting the value of the variable, which can be done by the Operation Agent.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"SET_VARIABLE\", \"variable_name\": \"assertion_operand_9995b11d2c204c0483a2f94f434e0015_0\", \"variable_value\": \"true\", \"operation_intent\": \"set the value of variable 'assertion_operand_9995b11d2c204c0483a2f94f434e0015_0' to true\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 20,
+            "global_operation_index": 20,
+            "is_replace": "true"
+        },
+        "13": {
+            "operation_intent": "Assert 'Deleted Selected' text is visible",
+            "operation_type": "ASSERTION",
+            "assertion_tree": {
+                "operator": "equals",
+                "left_operand": {
+                    "Deleted_Selected_visible": "runtime_variable"
+                },
+                "right_operand": {
+                    "assertion_operand_9995b11d2c204c0483a2f94f434e0015_0": "runtime_variable"
+                },
+                "transform_operands": []
+            },
+            "use_assertion_v2": true,
+            "query_variable_name": "",
+            "assertion": "Assert 'Deleted Selected' text is visible",
+            "string_to_float": false,
+            "operator": [
+                ""
+            ],
+            "expected_value": "",
+            "instruction_id": "9995b11d2c204c0483a2f94f434e0015",
+            "operation_id": "af9ab8e501d44f62",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 12:26:06.796849",
+            "operation_end": "2025-09-13 12:26:07.129808",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "Fail test immediately",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Assert 'Deleted Selected' text is visible\", \"thought\": \"Verify that the text 'Deleted Selected' is present and visible on the screen.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"ASSERTION\", \"assertion_tree\": {\"operator\": \"equals\", \"left_operand\": {\"Deleted_Selected_visible\": \"runtime_variable\"}, \"right_operand\": {\"assertion_operand_9995b11d2c204c0483a2f94f434e0015_0\": \"runtime_variable\"}, \"transform_operands\": []}, \"operation_intent\": \"Assert 'Deleted Selected' text is visible\"}, \"params\": {\"assertion_tree\": {\"operator\": \"equals\", \"left_operand\": {\"Deleted_Selected_visible\": \"runtime_variable\"}, \"right_operand\": {\"assertion_operand_9995b11d2c204c0483a2f94f434e0015_0\": \"runtime_variable\"}, \"transform_operands\": []}, \"operation_intent\": \"Assert 'Deleted Selected' text is visible\"}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 21,
+            "global_operation_index": 21
+        },
+        "14": {
+            "operation_intent": "Click on the checkbox for inactive expense name in the expense list",
+            "locator": [
+                "//div[contains(@class,'oxd-table-card-cell-checkbox')]/div[1]/label[1]/span[1]/i[1]",
+                "//div[contains(@class,'oxd-table-card-cell-checkbox')]/div[1]/label[1]/span[1]/i[1]",
+                "//div[contains(@class,'oxd-table-card-cell-checkbox')]/div[1]/label[1]/span[1]/i[1]"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "1c4bdb6080214102a962dd09002a5869",
+            "operation_id": "68846050135847b2",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 17:56:19.683000",
+            "operation_end": "2025-09-13 12:26:22.027629",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": ".oxd-table-card-cell-checkbox > div:nth-child(1) > label:nth-child(1) > span:nth-child(2) > i:nth-child(1)",
+                        "score": 55,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-table-card-cell-checkbox > div:nth-child(1) > label:nth-child(1) > span:nth-child(2) > i:nth-child(1)",
+                        "score": 55,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-table-card-cell-checkbox')]/div[1]/label[1]/span[1]/i[1]",
+                        "score": 15,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-table-card-cell-checkbox')]/div[1]/label[1]/span[1]/i[1]",
+                        "score": 15,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "sl",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on the checkbox for inactive expense name in the expense list\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 22,
+            "global_operation_index": 22,
+            "is_replace": "true"
+        },
+        "15": {
+            "operation_intent": "Click on Reset button in Expense Types section",
+            "locator": [
+                "//div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[2]/form[1]/div[2]/button[1]",
+                "//div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[2]/form[1]/div[2]/button[1]",
+                "//button[contains(@class,'oxd-button--ghost')]",
+                "//button[contains(@class,'oxd-button--medium') and contains(@class,'oxd-button--ghost')]"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "5abba253133d4303bddf828c39b1ffab",
+            "operation_id": "5da8b5f11ce344db",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 17:56:24.910000",
+            "operation_end": "2025-09-13 12:26:28.149638",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": ".oxd-button--ghost",
+                        "score": 80,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-button--medium.oxd-button--ghost",
+                        "score": 80,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[2]/form[1]/div[2]/button[1]",
+                        "score": 70,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "#app > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > form:nth-child(1) > div:nth-child(3) > button:nth-child(1)",
+                        "score": 65,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "button:has(+ [type=\"submit\"])",
+                        "score": 55,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//button[contains(@class,'oxd-button--ghost')]",
+                        "score": 40,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//button[contains(@class,'oxd-button--medium') and contains(@class,'oxd-button--ghost')]",
+                        "score": 25,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "za",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on Reset button in Expense Types section\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 23,
+            "global_operation_index": 23,
+            "is_replace": "true"
+        },
+        "16": {
+            "operation_intent": "Click on the collapse arrow button in the top right corner of Expense Types section",
+            "locator": [
+                "//div[contains(@class,'oxd-table-filter-header-options')]/div[3]/button[1]",
+                "//div[contains(@class,'oxd-table-filter-header-options')]/div[3]/button[1]",
+                "//div[contains(@class,'oxd-table-filter-header-options')]/div[3]/button[1]"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "5da394c5b1324a70bf2262805fc799a8",
+            "operation_id": "3ee3a216a9ff417c",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-13 17:56:29.979000",
+            "operation_end": "2025-09-13 12:26:32.180886",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": ".oxd-table-filter-header-options > div:nth-child(3) > button:nth-child(1)",
+                        "score": 55,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-table-filter-header-options > div:nth-child(3) > button:nth-child(1)",
+                        "score": 55,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-table-filter-header-options')]/div[3]/button[1]",
+                        "score": 15,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-table-filter-header-options')]/div[3]/button[1]",
+                        "score": 15,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "5p",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on the collapse arrow button in the top right corner of Expense Types section\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 24,
+            "global_operation_index": 24,
+            "is_replace": "true"
+        }
+    },
+    "parameters": {
+        "Anniversary_wishes": "wishing you happy Anniversary",
+        "booking_category": "FACIAL TREATMENTS",
+        "booking_note": "Note",
+        "booking_service": "Fourhead",
+        "booking_service_cost": "1000.00",
+        "booking_service_duration": "150min",
+        "Citrus_Illusion_cost": "72.00",
+        "Citrus_Illusion_duration": "60min",
+        "electronics": "Projector",
+        "email": "demo@bank.test",
+        "extra_gift_service": "FitSkin",
+        "extra_gift_service_category": " SkinCare",
+        "gift_delivery_hour": "06",
+        "gift_delivery_option": "Send later",
+        "gift_occasion": "Anniversary",
+        "gift_recipient_name": "recipient_name",
+        "new_user_DOB": "2000/12/12",
+        "new_user_first_name": "first_name",
+        "new_user_last_name": "last_name",
+        "new_user_pass": "!#%246Qw",
+        "password": "Correct$Horse7",
+        "policyme_address": "2210 Sunset Cove Circle",
+        "policyme_city": "Ontario",
+        "policyme_country": "Canada",
+        "policyme_dd": "13",
+        "policyme_firstLegalName": "Vipul",
+        "policyme_income": "100000",
+        "policyme_lastLegalName": "Srivastava",
+        "policyme_mm": "February",
+        "policyme_yyyy": "1995",
+        "services_list": "\"BODY TREATMENTS\" & \"PACKAGES\" & \"FLOAT\" & \"TREATMENTS\" & \"GROOMING SERVICES\" & \"HAIR SERVICES\" & \"LASER & BOTOX\" & \"MAKEUP\" & \"MESSAGE TREATMENTS\" & \"HANDS & FEET\" & \"SKIN CARE\" & \"SLIMMING\" & \"HAIR REMOVAL\" & \"FOOD\"",
+        "Studio_name": "Demo_Center",
+        "visaCard": "4111111111111111"
+    },
+    "variables": {
+        "Username_input_box_visible": "true",
+        "assertion_operand_631e6fe33e6c4bef82306ba0a8e30aa6_0": "true",
+        "record_found_visible": "true",
+        "assertion_operand_9d6ae09f5b454ecf9c5131bdfe503641_0": "true",
+        "Deleted_Selected_visible": "true",
+        "assertion_operand_9995b11d2c204c0483a2f94f434e0015_0": "true"
+    },
+    "global_variables": [
+        {
+            "id": 2505,
+            "name": "advanced_analytics_value",
+            "value": "true",
+            "session_value": "true",
+            "is_persist": false,
+            "environment_id": 0,
+            "environment_name": "No Env"
+        },
+        {
+            "id": 834,
+            "name": "current_page_url_00651b",
+            "value": "https://demo.zenoti.com/webstoreNew/guest/631ac7f2-a8c6-408c-93d7-3effb88f6643?location=0a36ed1d-0140-445a-ab17-7fcb8a14de97",
+            "session_value": "https://demo.zenoti.com/webstoreNew/guest/631ac7f2-a8c6-408c-93d7-3effb88f6643?location=0a36ed1d-0140-445a-ab17-7fcb8a14de97",
+            "is_persist": true,
+            "environment_id": 0,
+            "environment_name": "No Env"
+        },
+        {
+            "id": 1279,
+            "name": "lambda_username",
+            "value": "shantanuw",
+            "session_value": "shantanuw",
+            "is_persist": false,
+            "environment_id": 0,
+            "environment_name": "No Env"
+        },
+        {
+            "id": 832,
+            "name": "page_url_a6df32",
+            "value": "https://demo.zenoti.com/webstoreNew/services/thankyou?location=0a36ed1d-0140-445a-ab17-7fcb8a14de97",
+            "session_value": "https://demo.zenoti.com/webstoreNew/services/thankyou?location=0a36ed1d-0140-445a-ab17-7fcb8a14de97",
+            "is_persist": true,
+            "environment_id": 0,
+            "environment_name": "No Env"
+        },
+        {
+            "id": 15,
+            "name": "trending_projector_price",
+            "value": "false",
+            "session_value": "false",
+            "is_persist": true,
+            "environment_id": 0,
+            "environment_name": "No Env"
+        },
+        {
+            "id": 835,
+            "name": "url_1",
+            "value": "https://demo.zenoti.com/webstoreNew/guest/631ac7f2-a8c6-408c-93d7-3effb88f6643?location=0a36ed1d-0140-445a-ab17-7fcb8a14de97",
+            "session_value": "https://demo.zenoti.com/webstoreNew/guest/631ac7f2-a8c6-408c-93d7-3effb88f6643?location=0a36ed1d-0140-445a-ab17-7fcb8a14de97",
+            "is_persist": true,
+            "environment_id": 0,
+            "environment_name": "No Env"
+        },
+        {
+            "id": 1280,
+            "name": "lt_username",
+            "value": "shantanuw",
+            "session_value": "shantanuw",
+            "is_persist": false,
+            "environment_id": 9,
+            "environment_name": "prod"
+        },
+        {
+            "id": 1278,
+            "name": "New",
+            "value": "something",
+            "session_value": "something",
+            "is_persist": false,
+            "environment_id": 9,
+            "environment_name": "prod"
+        },
+        {
+            "id": 1258,
+            "name": "page_url",
+            "value": "https://www.lambdatest.com",
+            "session_value": "https://www.lambdatest.com",
+            "is_persist": false,
+            "environment_id": 9,
+            "environment_name": "prod"
+        },
+        {
+            "id": 3532,
+            "name": "sap_url",
+            "value": "https://my426318.s4hana.cloud.sap/ui?sap-language=EN#Shell-home",
+            "session_value": "https://my426318.s4hana.cloud.sap/ui?sap-language=EN#Shell-home",
+            "is_persist": false,
+            "environment_id": 9,
+            "environment_name": "prod"
+        },
+        {
+            "id": 887,
+            "name": "Studio",
+            "value": "demo_center",
+            "session_value": "demo_center",
+            "is_persist": false,
+            "environment_id": 9,
+            "environment_name": "prod"
+        },
+        {
+            "id": 57,
+            "name": "url",
+            "value": "https://accounts.lambdatest.com/login",
+            "session_value": "https://accounts.lambdatest.com/login",
+            "is_persist": false,
+            "environment_id": 9,
+            "environment_name": "prod"
+        },
+        {
+            "id": 18,
+            "name": "username",
+            "value": "shantanuw@lambdatest.com",
+            "session_value": "shantanuw@lambdatest.com",
+            "is_persist": false,
+            "environment_id": 9,
+            "environment_name": "prod"
+        },
+        {
+            "id": 20,
+            "name": "username",
+            "value": "swali@lambdatest.com",
+            "session_value": "swali@lambdatest.com",
+            "is_persist": false,
+            "environment_id": 10,
+            "environment_name": "stage"
+        },
+        {
+            "id": 2198,
+            "name": "policyme_url",
+            "value": "https://dev.policyme.com/life/life/intent",
+            "session_value": "https://dev.policyme.com/life/life/intent",
+            "is_persist": false,
+            "environment_id": 289,
+            "environment_name": "dev"
+        },
+        {
+            "id": 2272,
+            "name": "policyme_url",
+            "value": "https://dev.policyme.com/life/life/intent",
+            "session_value": "https://dev.policyme.com/life/life/intent",
+            "is_persist": false,
+            "environment_id": 294,
+            "environment_name": "policyme_test"
+        }
+    ]
+}

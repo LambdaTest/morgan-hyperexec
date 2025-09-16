@@ -1,0 +1,263 @@
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait,Select
+from selenium.webdriver.support import expected_conditions as EC
+import time,requests,re,os
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
+from lambdatest_selenium_driver import smartui_snapshot
+options = webdriver.ChromeOptions()
+driver = webdriver.Chrome(options=options)
+try:
+
+    actions = ActionChains(driver)
+    def get_element(driver,locators):
+        driver.implicitly_wait(6)
+        if isinstance(locators[0], str):
+            for locator in locators:
+                try:
+                    element = driver.find_element(By.XPATH, locator)
+                    if element.is_displayed() and element.is_enabled():
+                        return element
+                except:
+                    continue
+        else:
+            for locator in locators:
+                by_method = By.XPATH if str(locator['isXPath']).lower() == "true" else By.CSS_SELECTOR
+                try:
+                    element = driver.find_element(by_method, locator['selector'])
+                    if element.is_displayed() and element.is_enabled():
+                        return element
+                except:
+                    continue
+        return None
+
+    def select_option(select_element, option):
+        select = Select(select_element)
+        select.select_by_value(option)
+    driver.implicitly_wait(6)
+
+    # Step - 1 : navigate to 'https://orange-hrm.lambdatestinternal.com/orangehrm-5.7' website
+    driver.get("https://orange-hrm.lambdatestinternal.com/orangehrm-5.7")
+    driver.implicitly_wait(6)
+
+    # Step - 2 : Query 'Username input box' visibility
+    element_locators = ['']
+    element = get_element(driver,element_locators)
+
+    'This Instruction Is Carried Out By The Vision Model'
+    driver.implicitly_wait(6)
+
+    # Step - 3 : set the value of variable 'assertion_operand_70bbacb7c7404b7081bef3be0efd096d_0' to true
+    assertion_operand_70bbacb7c7404b7081bef3be0efd096d_0 = "true"
+    driver.implicitly_wait(6)
+
+    # Step - 4 : Assert 'Username input box' is visible on viewport
+    assertion_operand_70bbacb7c7404b7081bef3be0efd096d_0 = "true"
+    driver.implicitly_wait(6)
+
+    # Step - 5 : type 'pushpa.raj' in Username
+    element_locators = ['[placeholder="Username"][name="username"]', '[placeholder="Username"]', '[name="username"]', "//input[@placeholder='Username' and @name='username']", '.oxd-input--focus', "//input[starts-with(@placeholder,'Usern')]", "//input[contains(@class,'oxd-input--focus')]", "//input[contains(@placeholder,'Username')]"]
+    element = get_element(driver,element_locators)
+
+    try:
+        element.click()
+    except:
+        driver.execute_script("arguments[0].click();", element)
+    driver.execute_script("arguments[0].value = '';", element)
+    if element.get_attribute("pattern") and '[0-9]{2}' in element.get_attribute("pattern"):
+        for char in 'pushpa.raj':
+            element.send_keys(char)
+    else:
+        element.send_keys('pushpa.raj')
+    driver.implicitly_wait(6)
+
+    # Step - 6 : type ******************* in Password input field
+    element_locators = ["//input[@name='password' and @type='password']", '[placeholder="Password"][name="password"]', '[placeholder="Password"][type="password"]', '[name="password"][type="password"]', '[placeholder="Password"]', "//input[@placeholder='Password' and @type='password']", "//input[@placeholder='Password' and @name='password']", "//input[contains(@placeholder,'Password')]"]
+    element = get_element(driver,element_locators)
+
+    try:
+        element.click()
+    except:
+        driver.execute_script("arguments[0].click();", element)
+    driver.execute_script("arguments[0].value = '';", element)
+    if element.get_attribute("pattern") and '[0-9]{2}' in element.get_attribute("pattern"):
+        for char in '0NkLWCMXdAnZ45LJ@#2':
+            element.send_keys(char)
+    else:
+        element.send_keys('0NkLWCMXdAnZ45LJ@#2')
+    driver.implicitly_wait(6)
+
+    # Step - 7 : Click 'Login'
+    element_locators = ['[type="submit"]', '.oxd-button--medium', '.oxd-button--main', '.oxd-button--medium.oxd-button--main', "//button[starts-with(@type,'submi')]", "//button[contains(@class,'oxd-button--medium')]", "//button[contains(@type,'submit')]", "//button[contains(@class,'oxd-button--main')]"]
+    element = get_element(driver,element_locators)
+
+    try:
+        actions.move_to_element(element).click().perform()
+    except:
+        element.click()
+    driver.implicitly_wait(6)
+
+    # Step - 8 : wait 3 seconds
+    time.sleep(int(3))
+    driver.implicitly_wait(6)
+
+    # Step - 9 : Click on 'Claim' menu item in the left side navigation panel 
+    element_locators = ["//nav[@role='navigation' and @aria-label='Sidepanel']/div[2]/ul[1]/li[11]/a[1]/span[1]", "//span[text()='Claim']", '[aria-label="Sidepanel"] > div:nth-child(2) > ul:nth-child(2) > li:nth-child(11) > a:nth-child(1) > span:nth-child(2)']
+    element = get_element(driver,element_locators)
+
+    try:
+        actions.move_to_element(element).click().perform()
+    except:
+        element.click()
+    driver.implicitly_wait(6)
+
+    # Step - 10 : wait 3 seconds
+    time.sleep(int(3))
+    driver.implicitly_wait(6)
+
+    # Step - 11 : Click on the dropdown arrow next to user profile Pushpa Raj 
+    element_locators = ['span.oxd-topbar-body-nav-tab-item > i', 'span.oxd-topbar-body-nav-tab-item > i:nth-child(1)', 'span.oxd-topbar-body-nav-tab-item > i:nth-child(1)', "//span[contains(@class,'oxd-topbar-body-nav-tab-item')]/i[1]", "//span[contains(@class,'oxd-topbar-body-nav-tab-item')]/i[1]"]
+    element = get_element(driver,element_locators)
+
+    try:
+        actions.move_to_element(element).click().perform()
+    except:
+        element.click()
+    driver.implicitly_wait(6)
+
+    # Step - 12 : wait 3 seconds
+    time.sleep(int(3))
+    driver.implicitly_wait(6)
+
+    # Step - 13 : Click on 'Time at Work' section header 
+    element_locators = ['.--parent > ul:nth-child(2) > li:nth-child(1)', '.--parent > ul:nth-child(2) > li:nth-child(1)', "//li[contains(@class,'--parent')]/ul[1]/li[1]", "//li[contains(@class,'--parent')]/ul[1]/li[1]", "//li[contains(@class,'oxd-topbar-body-nav-tab') and contains(@class,'--parent')]/ul[1]/li[1]"]
+    element = get_element(driver,element_locators)
+
+    try:
+        actions.move_to_element(element).click().perform()
+    except:
+        element.click()
+    driver.implicitly_wait(6)
+
+    # Step - 14 : wait 3 seconds
+    time.sleep(int(3))
+    driver.implicitly_wait(6)
+
+    # Step - 15 : Click on the time at work timer input field 
+    element_locators = ['[placeholder="Type for hints..."]', '.oxd-autocomplete-text-input--focus > input', '.oxd-autocomplete-text-input--before + input', 'input:has(+ .oxd-autocomplete-text-input--after)', "//input[starts-with(@placeholder,'Type ')]", "//div[contains(@class,'oxd-autocomplete-text-input--focus')]/input[1]", "//input[contains(@placeholder,'Type for hints...')]", "//div[contains(@class,'oxd-autocomplete-text-input--focus')]/input[1]"]
+    element = get_element(driver,element_locators)
+
+    try:
+        actions.move_to_element(element).click().perform()
+    except:
+        element.click()
+    driver.implicitly_wait(6)
+
+    # Step - 16 : Type in time at work input field with placeholder 'Type for hints...' 'Ayush' 
+    element_locators = ['[placeholder="Type for hints..."]', '.oxd-autocomplete-text-input--focus > input', '.oxd-autocomplete-text-input--before + input', 'input:has(+ .oxd-autocomplete-text-input--after)', "//input[starts-with(@placeholder,'Type ')]", "//div[contains(@class,'oxd-autocomplete-text-input--focus')]/input[1]", "//input[contains(@placeholder,'Type for hints...')]", "//div[contains(@class,'oxd-autocomplete-text-input--focus')]/input[1]"]
+    element = get_element(driver,element_locators)
+
+    try:
+        element.click()
+    except:
+        driver.execute_script("arguments[0].click();", element)
+    driver.execute_script("arguments[0].value = '';", element)
+    if element.get_attribute("pattern") and '[0-9]{2}' in element.get_attribute("pattern"):
+        for char in 'Ayush':
+            element.send_keys(char)
+    else:
+        element.send_keys('Ayush')
+    driver.implicitly_wait(6)
+
+    # Step - 17 : wait 2 seconds
+    time.sleep(int(2))
+    driver.implicitly_wait(6)
+
+    # Step - 18 : Click 'Ayush Pathania' in dropdown list
+    element_locators = ['[role="option"]', '.--positon-bottom > div', '.--positon-bottom > div:nth-child(1)', '[role="listbox"] > div', "//div[starts-with(@role,'optio')]", "//div[contains(@class,'--positon-bottom')]/div[1]", "//div[contains(@role,'option')]", "//div[contains(@class,'--positon-bottom')]/div[1]"]
+    element = get_element(driver,element_locators)
+
+    try:
+        actions.move_to_element(element).click().perform()
+    except:
+        element.click()
+    driver.implicitly_wait(6)
+
+    # Step - 19 : Click 'View Button'
+    element_locators = ['[type="submit"]', '.oxd-button--medium', '.oxd-button--secondary', '.oxd-button--medium.oxd-button--secondary', "//button[starts-with(@type,'submi')]", "//button[contains(@class,'oxd-button--medium')]", "//button[contains(@type,'submit')]", "//button[contains(@class,'oxd-button--secondary')]"]
+    element = get_element(driver,element_locators)
+
+    try:
+        actions.move_to_element(element).click().perform()
+    except:
+        element.click()
+    driver.implicitly_wait(6)
+
+    # Step - 20 : wait 3 seconds
+    time.sleep(int(3))
+    driver.implicitly_wait(6)
+
+    # Step - 21 : Query 'No Records Found' visibility
+    element_locators = ["//div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[2]/div[2]", '#app > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2)']
+    element = get_element(driver,element_locators)
+
+    'This Instruction Is Carried Out By The Vision Model'
+    driver.implicitly_wait(6)
+
+    # Step - 22 : set the value of variable 'assertion_operand_342afd00256d4b9abcfb97a495fdc432_0' to true
+    assertion_operand_342afd00256d4b9abcfb97a495fdc432_0 = "true"
+    driver.implicitly_wait(6)
+
+    # Step - 23 : Assert 'No Records Found' text is visible
+    assertion_operand_342afd00256d4b9abcfb97a495fdc432_0 = "true"
+    driver.implicitly_wait(6)
+
+    # Step - 24 : Query visibility of text 'Timesheet for Ayush Pathania'
+    element_locators = ['.orangehrm-timesheet-header--title', "//div[@id='app']/div[1]/div[2]/div[2]/div[1]/form[1]/div[1]/div[1]", 'div:has(+ .orangehrm-timesheet-header--options)', '#app > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > form:nth-child(1) > div:nth-child(1) > div:nth-child(1)', "//div[contains(@class,'orangehrm-timesheet-header--title')]"]
+    element = get_element(driver,element_locators)
+
+    'This Instruction Is Carried Out By The Vision Model'
+    driver.implicitly_wait(6)
+
+    # Step - 25 : set the value of variable 'assertion_operand_f6795209918644e18086a466e2386a8d_0' to true
+    assertion_operand_f6795209918644e18086a466e2386a8d_0 = "true"
+    driver.implicitly_wait(6)
+
+    # Step - 26 : Assert text 'Timesheet for Ayush Pathania' is visible
+    assertion_operand_f6795209918644e18086a466e2386a8d_0 = "true"
+    driver.implicitly_wait(6)
+
+    # Step - 27 : Query 'No Timesheets Found' visibility
+    element_locators = ['']
+    element = get_element(driver,element_locators)
+
+    'This Instruction Is Carried Out By The Vision Model'
+    driver.implicitly_wait(6)
+
+    # Step - 28 : set the value of variable 'assertion_operand_b90211630d2d4552b0af2c369cfa8b95_0' to true
+    assertion_operand_b90211630d2d4552b0af2c369cfa8b95_0 = "true"
+    driver.implicitly_wait(6)
+
+    # Step - 29 : Assert 'No Timesheets Found' text is visible
+    assertion_operand_b90211630d2d4552b0af2c369cfa8b95_0 = "true"
+    driver.implicitly_wait(6)
+
+    # Step - 30 : Query 'Timesheet Period' visibility
+    element_locators = ['']
+    element = get_element(driver,element_locators)
+
+    'This Instruction Is Carried Out By The Vision Model'
+    driver.implicitly_wait(6)
+
+    # Step - 31 : set the value of variable 'assertion_operand_6749a38e2b9646f49f1ebf46e02fa9f1_0' to true
+    assertion_operand_6749a38e2b9646f49f1ebf46e02fa9f1_0 = "true"
+    driver.implicitly_wait(6)
+
+    # Step - 32 : Assert 'Timesheet Period' is visible
+    assertion_operand_6749a38e2b9646f49f1ebf46e02fa9f1_0 = "true"
+
+    driver.quit()
+except Exception as e:
+    driver.quit()
