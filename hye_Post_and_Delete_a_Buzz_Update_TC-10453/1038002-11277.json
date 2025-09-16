@@ -1,0 +1,1698 @@
+{
+    "max_network_wait": 10,
+    "network_wait_for_all_actions": true,
+    "wait_buffer": 0.2,
+    "410579e1-c957-41d9-b25c-91ac8457c707_0": {
+        "0": {
+            "operation_intent": "navigate to 'https://orange-hrm.lambdatestinternal.com/orangehrm-5.7' website",
+            "operation_type": "OPEN",
+            "url": "https://orange-hrm.lambdatestinternal.com/orangehrm-5.7",
+            "instruction_id": "d82a9b86419e46968197af6eddca00af",
+            "operation_id": "9a1d137518964de0",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 13:18:42.158336",
+            "operation_end": "2025-09-12 13:18:45.170343",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"navigate to 'https://orange-hrm.lambdatestinternal.com/orangehrm-5.7' website\", \"thought\": \"Navigate the browser to the specified URL 'https://orange-hrm.lambdatestinternal.com/orangehrm-5.7'.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"OPEN\", \"url\": \"https://orange-hrm.lambdatestinternal.com/orangehrm-5.7\", \"operation_intent\": \"navigate to 'https://orange-hrm.lambdatestinternal.com/orangehrm-5.7' website\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 0,
+            "global_operation_index": 0,
+            "module_version": 1.1,
+            "is_replace": "true"
+        },
+        "1": {
+            "operation_intent": "Query 'Username input box' visibility",
+            "locator": [
+                ""
+            ],
+            "operation_type": "VISUAL_QUERY",
+            "query_variable_name": "Username_input_box_visible",
+            "query_info_dict": {
+                "name": "Username input box",
+                "type": "Web Element",
+                "attributes_dict": {},
+                "selected_attribute_name": "displayed",
+                "use_prompt_query_response": false,
+                "custom_data_hook_flag": false,
+                "custom_data_hook_name": ""
+            },
+            "use_query_v2": true,
+            "vision_query_url": "https://kaneai-api.lambdatest.com",
+            "version": "v1",
+            "instruction_id": "d7c5e8624b3747b39d7260428831a1b3",
+            "operation_id": "e93cf5eeb8eb4491",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 13:18:56.083413",
+            "operation_end": "2025-09-12 13:18:56.146911",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Query 'Username input box' visibility\", \"thought\": \"Check if the 'Username input box' is visible on the viewport.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"VISION_QUERY\", \"variable_name\": \"Username_input_box_visible\", \"element\": \"Username input box\", \"operation_intent\": \"Query 'Username input box' visibility\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 1,
+            "global_operation_index": 1,
+            "module_version": 1.1,
+            "is_replace": "true"
+        },
+        "2": {
+            "operation_intent": "set the value of variable 'assertion_operand_d7c5e8624b3747b39d7260428831a1b3_0' to true",
+            "operation_type": "SET_VARIABLE",
+            "instruction_id": "d7c5e8624b3747b39d7260428831a1b3",
+            "operation_id": "7f691f6cfdb445d5",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[{\"name\": \"assertion_operand_d7c5e8624b3747b39d7260428831a1b3_0\", \"value\": \"true\", \"value_type\": \"string\"}]",
+            "operation_start": "2025-09-12 13:18:56.926846",
+            "operation_end": "2025-09-12 13:18:57.030094",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"set the value of variable 'assertion_operand_d7c5e8624b3747b39d7260428831a1b3_0' to true\", \"thought\": \"Setting the value of variable 'assertion_operand_d7c5e8624b3747b39d7260428831a1b3_0' to true requires setting the value of the variable, which can be done by the Operation Agent.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"SET_VARIABLE\", \"variable_name\": \"assertion_operand_d7c5e8624b3747b39d7260428831a1b3_0\", \"variable_value\": \"true\", \"operation_intent\": \"set the value of variable 'assertion_operand_d7c5e8624b3747b39d7260428831a1b3_0' to true\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 2,
+            "global_operation_index": 2,
+            "module_version": 1.1,
+            "is_replace": "true"
+        },
+        "3": {
+            "operation_intent": "Assert 'Username input box' is visible on the viewport",
+            "operation_type": "ASSERTION",
+            "assertion_tree": {
+                "operator": "equals",
+                "left_operand": {
+                    "Username_input_box_visible": "runtime_variable"
+                },
+                "right_operand": {
+                    "assertion_operand_d7c5e8624b3747b39d7260428831a1b3_0": "runtime_variable"
+                },
+                "transform_operands": []
+            },
+            "use_assertion_v2": true,
+            "query_variable_name": "",
+            "assertion": "Assert 'Username input box' is visible on the viewport",
+            "string_to_float": false,
+            "operator": [
+                ""
+            ],
+            "expected_value": "",
+            "instruction_id": "d7c5e8624b3747b39d7260428831a1b3",
+            "operation_id": "53dd58a4a14344c2",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 13:18:57.805353",
+            "operation_end": "2025-09-12 13:18:58.102958",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "Fail test immediately",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Assert 'Username input box' is visible on the viewport\", \"thought\": \"Verify the 'Username input box' is visible on the viewport.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"ASSERTION\", \"assertion_tree\": {\"operator\": \"equals\", \"left_operand\": {\"Username_input_box_visible\": \"runtime_variable\"}, \"right_operand\": {\"assertion_operand_d7c5e8624b3747b39d7260428831a1b3_0\": \"runtime_variable\"}, \"transform_operands\": []}, \"operation_intent\": \"Assert 'Username input box' is visible on the viewport\"}, \"params\": {\"assertion_tree\": {\"operator\": \"equals\", \"left_operand\": {\"Username_input_box_visible\": \"runtime_variable\"}, \"right_operand\": {\"assertion_operand_d7c5e8624b3747b39d7260428831a1b3_0\": \"runtime_variable\"}, \"transform_operands\": []}, \"operation_intent\": \"Assert 'Username input box' is visible on the viewport\"}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 3,
+            "global_operation_index": 3,
+            "module_version": 1.1
+        },
+        "4": {
+            "operation_intent": "type 'pushpa.raj' in Username",
+            "locator": [
+                "//html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input"
+            ],
+            "operation_type": "TYPE",
+            "value": "pushpa.raj",
+            "multiple_inputs": false,
+            "instruction_id": "57282ef3093b450ebe89aa63e746b64a",
+            "operation_id": "ef9a952a1d4a4688",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 13:19:06.076830",
+            "operation_end": "2025-09-12 13:19:07.280380",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "frameInfo": [],
+                "locators": [
+                    {
+                        "isXPath": false,
+                        "score": 90,
+                        "selector": "[placeholder=\"Username\"][name=\"username\"]"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 85,
+                        "selector": "[placeholder=\"Username\"]"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 85,
+                        "selector": "[name=\"username\"]"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 85,
+                        "selector": "//input[@placeholder='Username' and @name='username']"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 80,
+                        "selector": ".oxd-input--focus"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 50,
+                        "selector": "//input[starts-with(@placeholder,'Usern')]"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 40,
+                        "selector": "//input[contains(@class,'oxd-input--focus')]"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 40,
+                        "selector": "//input[contains(@placeholder,'Username')]"
+                    }
+                ]
+            },
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"type 'pushpa.raj' in Username\", \"thought\": \"Enter the value 'pushpa.raj' into the 'Username' field.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"TYPE\", \"value\": \"pushpa.raj\", \"element\": \"Username\", \"operation_intent\": \"type 'pushpa.raj' in Username\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 4,
+            "global_operation_index": 4,
+            "module_version": 1.1,
+            "is_replace": "true"
+        },
+        "5": {
+            "operation_intent": "type ******************* in Password input field",
+            "locator": [
+                "//html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[2]/div/div[2]/input"
+            ],
+            "operation_type": "TYPE",
+            "value": "0NkLWCMXdAnZ45LJ@#2",
+            "multiple_inputs": false,
+            "instruction_id": "8c971c3bb8e14d699de92818a86ec245",
+            "operation_id": "5122734984f94016",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 13:19:15.378232",
+            "operation_end": "2025-09-12 13:19:16.537180",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "frameInfo": [],
+                "locators": [
+                    {
+                        "isXPath": true,
+                        "score": 95,
+                        "selector": "//input[@name='password' and @type='password']"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 90,
+                        "selector": "[placeholder=\"Password\"][name=\"password\"]"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 90,
+                        "selector": "[placeholder=\"Password\"][type=\"password\"]"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 90,
+                        "selector": "[name=\"password\"][type=\"password\"]"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 85,
+                        "selector": "[placeholder=\"Password\"]"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 85,
+                        "selector": "//input[@placeholder='Password' and @type='password']"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 85,
+                        "selector": "//input[@placeholder='Password' and @name='password']"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 40,
+                        "selector": "//input[contains(@placeholder,'Password')]"
+                    }
+                ]
+            },
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"type '0NkLWCMXdAnZ45LJ@#2' in Password\", \"thought\": \"Enter the given password into the Password field.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"TYPE\", \"value\": \"0NkLWCMXdAnZ45LJ@#2\", \"element\": \"Password\", \"operation_intent\": \"type '0NkLWCMXdAnZ45LJ@#2' in Password\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 5,
+            "global_operation_index": 5,
+            "module_version": 1.1,
+            "is_replace": "true"
+        },
+        "6": {
+            "operation_intent": "Click 'Login'",
+            "locator": [
+                "//html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "8f876005ddca4e4e928a6e66ed04b5ef",
+            "operation_id": "7964c59e5b4a4470",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 13:19:24.853530",
+            "operation_end": "2025-09-12 13:19:25.550525",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "frameInfo": [],
+                "locators": [
+                    {
+                        "isXPath": false,
+                        "score": 85,
+                        "selector": "[type=\"submit\"]"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 80,
+                        "selector": ".oxd-button--medium"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 80,
+                        "selector": ".oxd-button--main"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 80,
+                        "selector": ".oxd-button--medium.oxd-button--main"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 50,
+                        "selector": "//button[starts-with(@type,'submi')]"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 40,
+                        "selector": "//button[contains(@class,'oxd-button--medium')]"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 40,
+                        "selector": "//button[contains(@type,'submit')]"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 40,
+                        "selector": "//button[contains(@class,'oxd-button--main')]"
+                    }
+                ]
+            },
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click 'Login'\", \"thought\": \"Tap the element labeled 'Login'.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\", \"element\": \"Login\", \"operation_intent\": \"Click 'Login'\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 6,
+            "global_operation_index": 6,
+            "module_version": 1.1,
+            "is_replace": "true"
+        },
+        "7": {
+            "operation_intent": "wait 3 seconds",
+            "operation_type": "WAIT",
+            "value": 3,
+            "instruction_id": "bd33f77361354070835d4ce7baf60fd9",
+            "operation_id": "e4d632496e7a4277",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 13:19:31.434137",
+            "operation_end": "2025-09-12 13:19:34.918473",
+            "instruction_module_id": "410579e1-c957-41d9-b25c-91ac8457c707",
+            "instruction_module_name": "OrangeHRM Login Module",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"wait 3 seconds\", \"thought\": \"Pause execution for '3' seconds as requested.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"WAIT\", \"duration\": 3, \"operation_intent\": \"wait 3 seconds\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 7,
+            "global_operation_index": 7,
+            "module_version": 1.1,
+            "is_replace": "true"
+        }
+    },
+    "main_flow": {
+        "0": {
+            "operation_intent": "Click on 'Buzz' menu item in the left side menu",
+            "locator": [
+                "//nav[@role='navigation' and @aria-label='Sidepanel']/div[2]/ul[1]/li[12]/a[1]/span[1]",
+                "//nav[@role='navigation' and @aria-label='Sidepanel']/div[2]/ul[1]/li[12]/a[1]/span[1]",
+                "//span[text()='Buzz']"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "7e5e3f8fbc134750b6733377156384e0",
+            "operation_id": "bcbafb886b6a4cce",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 18:49:42.883000",
+            "operation_end": "2025-09-12 13:19:45.279811",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": "//nav[@role='navigation' and @aria-label='Sidepanel']/div[2]/ul[1]/li[12]/a[1]/span[1]",
+                        "score": 70,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//span[text()='Buzz']",
+                        "score": 65,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "[aria-label=\"Sidepanel\"] > div:nth-child(2) > ul:nth-child(2) > li:nth-child(12) > a:nth-child(1) > span:nth-child(2)",
+                        "score": 35,
+                        "isXPath": false
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "ty",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on 'Buzz' menu item in the left side menu\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 8,
+            "global_operation_index": 8,
+            "is_replace": "true"
+        },
+        "1": {
+            "operation_intent": "Click on the 'What's on your mind?' text area in Buzz Newsfeed",
+            "locator": [
+                "//div[contains(@class,'oxd-buzz-post--focus')]/textarea[1]",
+                "//div[contains(@class,'oxd-buzz-post--focus')]/textarea[1]",
+                "//div[contains(@class,'oxd-buzz-post--focus')]/textarea[1]"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "074cf3cbc611401fabcf8dfcb1439309",
+            "operation_id": "51e453944b344866",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 18:49:49.303000",
+            "operation_end": "2025-09-12 13:19:51.787475",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": "[placeholder=\"What's on your mind?\"]",
+                        "score": 85,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-buzz-post--focus > textarea",
+                        "score": 80,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-buzz-post--focus > textarea:nth-child(1)",
+                        "score": 75,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-buzz-post--focus > textarea:nth-child(1)",
+                        "score": 75,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-buzz-post--focus')]/textarea[1]",
+                        "score": 30,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-buzz-post--focus')]/textarea[1]",
+                        "score": 30,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "se",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on the 'What's on your mind?' text area in Buzz Newsfeed\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 9,
+            "global_operation_index": 9,
+            "is_replace": "true"
+        },
+        "2": {
+            "operation_intent": "Type in What's on your mind? input textarea 'test'",
+            "locator": [
+                "//div[contains(@class,'oxd-buzz-post--focus')]/textarea[1]",
+                "//div[contains(@class,'oxd-buzz-post--focus')]/textarea[1]",
+                "//div[contains(@class,'oxd-buzz-post--focus')]/textarea[1]"
+            ],
+            "operation_type": "INPUT",
+            "value": "test",
+            "multiple_inputs": false,
+            "instruction_id": "467a18da5e3d40529221744f8c5150b5",
+            "operation_id": "845c9a5d4efe4c61",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 18:49:50.411000",
+            "operation_end": "2025-09-12 13:19:53.238982",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": "[placeholder=\"What's on your mind?\"]",
+                        "score": 85,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-buzz-post--focus > textarea",
+                        "score": 80,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-buzz-post--focus > textarea:nth-child(1)",
+                        "score": 75,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-buzz-post--focus > textarea:nth-child(1)",
+                        "score": 75,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-buzz-post--focus')]/textarea[1]",
+                        "score": 30,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-buzz-post--focus')]/textarea[1]",
+                        "score": 30,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "2s",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Type in What's on your mind? input textarea 'test'\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"INPUT\"}}",
+            "_original_index": 10,
+            "global_operation_index": 10,
+            "is_replace": "true"
+        },
+        "3": {
+            "operation_intent": "Click on the Post button in Buzz Newsfeed",
+            "locator": [
+                "//button[starts-with(@type,'submi')]",
+                "//button[starts-with(@type,'submi')]",
+                "//button[contains(@class,'oxd-button--main')]",
+                "//button[contains(@type,'submit')]",
+                "//button[contains(@class,'oxd-button--medium') and contains(@class,'oxd-button--main')]"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "4d643aaa77b04bbebfd980f76aeb4884",
+            "operation_id": "c926da46346040d0",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 18:49:52.849000",
+            "operation_end": "2025-09-12 13:19:55.326020",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": "[type=\"submit\"]",
+                        "score": 85,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-button--main",
+                        "score": 80,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-button--medium.oxd-button--main",
+                        "score": 80,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-buzz-post--composing > div:nth-child(2) > button:nth-child(1)",
+                        "score": 65,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//button[starts-with(@type,'submi')]",
+                        "score": 50,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//button[contains(@class,'oxd-button--main')]",
+                        "score": 40,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//button[contains(@type,'submit')]",
+                        "score": 40,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//button[contains(@class,'oxd-button--medium') and contains(@class,'oxd-button--main')]",
+                        "score": 25,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "o8",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on the Post button in Buzz Newsfeed\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 11,
+            "global_operation_index": 11,
+            "is_replace": "true"
+        },
+        "4": {
+            "operation_intent": "Click on the heart icon below post by Pushpa Raj",
+            "locator": [
+                "//div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/*[local-name()='svg']",
+                "//div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/*[local-name()='svg']"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "6ac9626f7229404c9cb29c94fde5fd72",
+            "operation_id": "d606cc7190154aec",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 18:49:58.314000",
+            "operation_end": "2025-09-12 13:20:01.046855",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": "#heart-svg",
+                        "score": 90,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "#app > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1)",
+                        "score": 65,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/*[local-name()='svg']",
+                        "score": 50,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "3p",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on the heart icon below post by Pushpa Raj\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 12,
+            "global_operation_index": 12,
+            "is_replace": "true"
+        },
+        "5": {
+            "operation_intent": "Query '1 Like' visibility",
+            "locator": [
+                ""
+            ],
+            "operation_type": "VISUAL_QUERY",
+            "query_variable_name": "like_text_visible",
+            "query_info_dict": {
+                "name": "'1 Like' text visibility",
+                "type": "Web Element",
+                "attributes_dict": {},
+                "selected_attribute_name": "displayed",
+                "use_prompt_query_response": false,
+                "custom_data_hook_flag": false,
+                "custom_data_hook_name": ""
+            },
+            "use_query_v2": true,
+            "vision_query_url": "https://kaneai-api.lambdatest.com",
+            "version": "v1",
+            "instruction_id": "46c43b8efe954d3c888981d96c019442",
+            "operation_id": "583dc971c9ea4700",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 13:20:28.592978",
+            "operation_end": "2025-09-12 13:20:28.632186",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Query '1 Like' visibility\", \"thought\": \"Check if the text '1 Like' is visible on the screen.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"VISION_QUERY\", \"variable_name\": \"like_text_visible\", \"element\": \"1 Like\", \"operation_intent\": \"Query '1 Like' visibility\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 13,
+            "global_operation_index": 13,
+            "is_replace": "true"
+        },
+        "6": {
+            "operation_intent": "set the value of variable 'assertion_operand_46c43b8efe954d3c888981d96c019442_0' to true",
+            "operation_type": "SET_VARIABLE",
+            "instruction_id": "46c43b8efe954d3c888981d96c019442",
+            "operation_id": "150e0e334ea24e80",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[{\"name\": \"assertion_operand_46c43b8efe954d3c888981d96c019442_0\", \"value\": \"true\", \"value_type\": \"string\"}]",
+            "operation_start": "2025-09-12 13:20:29.463383",
+            "operation_end": "2025-09-12 13:20:29.604696",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"set the value of variable 'assertion_operand_46c43b8efe954d3c888981d96c019442_0' to true\", \"thought\": \"Setting the value of variable 'assertion_operand_46c43b8efe954d3c888981d96c019442_0' to true requires setting the value of the variable, which can be done by the Operation Agent.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"SET_VARIABLE\", \"variable_name\": \"assertion_operand_46c43b8efe954d3c888981d96c019442_0\", \"variable_value\": \"true\", \"operation_intent\": \"set the value of variable 'assertion_operand_46c43b8efe954d3c888981d96c019442_0' to true\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 14,
+            "global_operation_index": 14,
+            "is_replace": "true"
+        },
+        "7": {
+            "operation_intent": "Assert '1 Like' is visible",
+            "operation_type": "ASSERTION",
+            "assertion_tree": {
+                "operator": "equals",
+                "left_operand": {
+                    "like_text_visible": "runtime_variable"
+                },
+                "right_operand": {
+                    "assertion_operand_46c43b8efe954d3c888981d96c019442_0": "runtime_variable"
+                },
+                "transform_operands": []
+            },
+            "use_assertion_v2": true,
+            "query_variable_name": "",
+            "assertion": "Assert '1 Like' is visible",
+            "string_to_float": false,
+            "operator": [
+                ""
+            ],
+            "expected_value": "",
+            "instruction_id": "46c43b8efe954d3c888981d96c019442",
+            "operation_id": "cff6f5c87f664968",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 13:20:30.509292",
+            "operation_end": "2025-09-12 13:20:30.866301",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "Fail test immediately",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Assert '1 Like' is visible\", \"thought\": \"Verify that '1 Like' is present and visible on the page.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"ASSERTION\", \"assertion_tree\": {\"operator\": \"equals\", \"left_operand\": {\"like_text_visible\": \"runtime_variable\"}, \"right_operand\": {\"assertion_operand_46c43b8efe954d3c888981d96c019442_0\": \"runtime_variable\"}, \"transform_operands\": []}, \"operation_intent\": \"Assert '1 Like' is visible\"}, \"params\": {\"assertion_tree\": {\"operator\": \"equals\", \"left_operand\": {\"like_text_visible\": \"runtime_variable\"}, \"right_operand\": {\"assertion_operand_46c43b8efe954d3c888981d96c019442_0\": \"runtime_variable\"}, \"transform_operands\": []}, \"operation_intent\": \"Assert '1 Like' is visible\"}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 15,
+            "global_operation_index": 15
+        },
+        "8": {
+            "operation_intent": "Click on the red heart icon below post by Pushpa Raj",
+            "locator": [
+                "//div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/*[local-name()='svg']",
+                "//div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/*[local-name()='svg']"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "dad06455322849e49a7f136ab4cddb39",
+            "operation_id": "bb97f4e187bf437e",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 18:50:44.652000",
+            "operation_end": "2025-09-12 13:20:47.226059",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": "#heart-svg",
+                        "score": 90,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "#app > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1)",
+                        "score": 65,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/*[local-name()='svg']",
+                        "score": 50,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "go",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on the red heart icon below post by Pushpa Raj\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 16,
+            "global_operation_index": 16,
+            "is_replace": "true"
+        },
+        "9": {
+            "operation_intent": "Query '0 Likes' visibility",
+            "locator": [
+                "//html/body/div/div[1]/div[2]/div[2]/div/div[1]/div/div[3]/div[1]/div/div[3]/div[2]/div[1]/p"
+            ],
+            "operation_type": "VISUAL_QUERY",
+            "query_variable_name": "zero_likes_visible",
+            "query_info_dict": {
+                "name": "'0 Likes' text",
+                "type": "Web Element",
+                "attributes_dict": {},
+                "selected_attribute_name": "displayed",
+                "use_prompt_query_response": false,
+                "custom_data_hook_flag": false,
+                "custom_data_hook_name": ""
+            },
+            "use_query_v2": true,
+            "vision_query_url": "https://kaneai-api.lambdatest.com",
+            "version": "v1",
+            "instruction_id": "be23fbe7f4e04926970472deb6947085",
+            "operation_id": "f6981feb6ec14588",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 13:21:14.904122",
+            "operation_end": "2025-09-12 13:21:15.021290",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "frameInfo": [],
+                "locators": [
+                    {
+                        "isXPath": false,
+                        "score": 70,
+                        "selector": ".orangehrm-buzz-stats-like-icon + p"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 70,
+                        "selector": "//div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[2]/div[1]/p[1]"
+                    },
+                    {
+                        "isXPath": false,
+                        "score": 65,
+                        "selector": "#app > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > p:nth-child(2)"
+                    },
+                    {
+                        "isXPath": true,
+                        "score": 65,
+                        "selector": "//p[text()='0 Likes']"
+                    }
+                ]
+            },
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Query '0 Likes' visibility\", \"thought\": \"Check if the text '0 Likes' is visible on the screen.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"VISION_QUERY\", \"variable_name\": \"zero_likes_visible\", \"element\": \"0 Likes\", \"operation_intent\": \"Query '0 Likes' visibility\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 17,
+            "global_operation_index": 17,
+            "is_replace": "true"
+        },
+        "10": {
+            "operation_intent": "set the value of variable 'assertion_operand_be23fbe7f4e04926970472deb6947085_0' to true",
+            "operation_type": "SET_VARIABLE",
+            "instruction_id": "be23fbe7f4e04926970472deb6947085",
+            "operation_id": "9ab8fb642d5f451e",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[{\"name\": \"assertion_operand_be23fbe7f4e04926970472deb6947085_0\", \"value\": \"true\", \"value_type\": \"string\"}]",
+            "operation_start": "2025-09-12 13:21:15.974819",
+            "operation_end": "2025-09-12 13:21:16.116625",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"set the value of variable 'assertion_operand_be23fbe7f4e04926970472deb6947085_0' to true\", \"thought\": \"Setting the value of variable 'assertion_operand_be23fbe7f4e04926970472deb6947085_0' to true requires setting the value of the variable, which can be done by the Operation Agent.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"SET_VARIABLE\", \"variable_name\": \"assertion_operand_be23fbe7f4e04926970472deb6947085_0\", \"variable_value\": \"true\", \"operation_intent\": \"set the value of variable 'assertion_operand_be23fbe7f4e04926970472deb6947085_0' to true\"}, \"params\": {}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 18,
+            "global_operation_index": 18,
+            "is_replace": "true"
+        },
+        "11": {
+            "operation_intent": "Assert '0 Likes' is visible on screen",
+            "operation_type": "ASSERTION",
+            "assertion_tree": {
+                "operator": "equals",
+                "left_operand": {
+                    "zero_likes_visible": "runtime_variable"
+                },
+                "right_operand": {
+                    "assertion_operand_be23fbe7f4e04926970472deb6947085_0": "runtime_variable"
+                },
+                "transform_operands": []
+            },
+            "use_assertion_v2": true,
+            "query_variable_name": "",
+            "assertion": "Assert '0 Likes' is visible on screen",
+            "string_to_float": false,
+            "operator": [
+                ""
+            ],
+            "expected_value": "",
+            "instruction_id": "be23fbe7f4e04926970472deb6947085",
+            "operation_id": "612510a33eb04b00",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 13:21:16.908103",
+            "operation_end": "2025-09-12 13:21:17.242230",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": "",
+            "manual_interaction_tag": "",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "Fail test immediately",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Assert '0 Likes' is visible on screen\", \"thought\": \"Verify that '0 Likes' text is currently visible.\", \"agent\": \"Operation Agent\", \"operation_dict\": {\"operation_type\": \"ASSERTION\", \"assertion_tree\": {\"operator\": \"equals\", \"left_operand\": {\"zero_likes_visible\": \"runtime_variable\"}, \"right_operand\": {\"assertion_operand_be23fbe7f4e04926970472deb6947085_0\": \"runtime_variable\"}, \"transform_operands\": []}, \"operation_intent\": \"Assert '0 Likes' is visible on screen\"}, \"params\": {\"assertion_tree\": {\"operator\": \"equals\", \"left_operand\": {\"zero_likes_visible\": \"runtime_variable\"}, \"right_operand\": {\"assertion_operand_be23fbe7f4e04926970472deb6947085_0\": \"runtime_variable\"}, \"transform_operands\": []}, \"operation_intent\": \"Assert '0 Likes' is visible on screen\"}, \"secrets\": {}, \"variable\": {}}",
+            "_original_index": 19,
+            "global_operation_index": 19
+        },
+        "12": {
+            "operation_intent": "Click on the three dots menu icon on post by Pushpa Raj",
+            "locator": [
+                "//div[contains(@class,'orangehrm-buzz-post-header-config')]/li[1]/button[1]/i[1]",
+                "//div[contains(@class,'orangehrm-buzz-post-header-config')]/li[1]/button[1]/i[1]",
+                "//div[contains(@class,'orangehrm-buzz-post-header-config')]/li[1]/button[1]/i[1]"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "e8c7401065964e9caeadc0f7dea983a5",
+            "operation_id": "aa70f08fa3274086",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 18:51:22.606000",
+            "operation_end": "2025-09-12 13:21:24.932289",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": ".orangehrm-buzz-post-header-config > li:nth-child(1) > button:nth-child(1) > i:nth-child(1)",
+                        "score": 55,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".orangehrm-buzz-post-header-config > li:nth-child(1) > button:nth-child(1) > i:nth-child(1)",
+                        "score": 55,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//div[contains(@class,'orangehrm-buzz-post-header-config')]/li[1]/button[1]/i[1]",
+                        "score": 15,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//div[contains(@class,'orangehrm-buzz-post-header-config')]/li[1]/button[1]/i[1]",
+                        "score": 15,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "p4",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on the three dots menu icon on post by Pushpa Raj\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 20,
+            "global_operation_index": 20,
+            "is_replace": "true"
+        },
+        "13": {
+            "operation_intent": "Click on 'Delete Post' option in post action menu",
+            "locator": [
+                "//p[text()='Delete Post']",
+                "//p[text()='Delete Post']",
+                "//div[contains(@class,'orangehrm-buzz-post-header-config')]/li[1]/ul[1]/li[1]/p[1]",
+                "//div[contains(@class,'orangehrm-buzz-post-header-config')]/li[1]/ul[1]/li[1]/p[1]"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "4e098df2c38345abaa68a9c494b94c49",
+            "operation_id": "3f467f3d6aa24618",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 18:51:23.791000",
+            "operation_end": "2025-09-12 13:21:26.239432",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": "//p[text()='Delete Post']",
+                        "score": 65,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "[role=\"menu\"] > li:nth-child(1) > p:nth-child(2)",
+                        "score": 55,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "[role=\"menu\"] > li:nth-child(1) > p:nth-child(2)",
+                        "score": 55,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//div[contains(@class,'orangehrm-buzz-post-header-config')]/li[1]/ul[1]/li[1]/p[1]",
+                        "score": 15,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//div[contains(@class,'orangehrm-buzz-post-header-config')]/li[1]/ul[1]/li[1]/p[1]",
+                        "score": 15,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "jf",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on 'Delete Post' option in post action menu\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 21,
+            "global_operation_index": 21,
+            "is_replace": "true"
+        },
+        "14": {
+            "operation_intent": "Click on the Yes, Delete button with trash icon",
+            "locator": [
+                "//button[contains(@class,'oxd-button--label-danger')]",
+                "//button[contains(@class,'oxd-button--label-danger')]",
+                "//div[contains(@class,'oxd-sheet--rounded') and contains(@class,'oxd-sheet--white') and contains(@class,'oxd-dialog-sheet--shadow') and contains(@class,'oxd-dialog-sheet--gutters')]/div[3]/button[2]",
+                "//button[contains(@class,'oxd-button--medium') and contains(@class,'oxd-button--label-danger')]",
+                "//div[contains(@class,'oxd-dialog-sheet--shadow')]/div[3]/button[2]"
+            ],
+            "operation_type": "CLICK",
+            "value": "",
+            "instruction_id": "c3ab4cfbf23a465bb551b578a403562c",
+            "operation_id": "a9c4fe138c8046ba",
+            "optional_flag": false,
+            "max_retries": 0,
+            "retries_delay": 0,
+            "explicit_wait": 0,
+            "implicit_wait": 0,
+            "frame": "[]",
+            "user_variables": "[]",
+            "operation_start": "2025-09-12 18:51:30.583000",
+            "operation_end": "2025-09-12 13:21:32.963686",
+            "instruction_module_id": "",
+            "instruction_module_name": "",
+            "use_v2_mobile_tagging": false,
+            "hard_assertion": false,
+            "dialog_action": "",
+            "dismiss_dialog": false,
+            "is_coordinates_used_for_interaction": false,
+            "element_coordinates_ratio": [],
+            "element_bounds_ratio": [],
+            "kaneaiMobileTaggingImageLimit": 1,
+            "clicks_order_code": "se_js_ac",
+            "selector": {
+                "locators": [
+                    {
+                        "selector": ".oxd-button--label-danger",
+                        "score": 80,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-button--medium.oxd-button--label-danger",
+                        "score": 80,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-button--ghost + button",
+                        "score": 70,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": ".oxd-button--medium.oxd-button--ghost + button",
+                        "score": 70,
+                        "isXPath": false
+                    },
+                    {
+                        "selector": "//button[contains(@class,'oxd-button--label-danger')]",
+                        "score": 30,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-sheet--rounded') and contains(@class,'oxd-sheet--white') and contains(@class,'oxd-dialog-sheet--shadow') and contains(@class,'oxd-dialog-sheet--gutters')]/div[3]/button[2]",
+                        "score": 30,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//button[contains(@class,'oxd-button--medium') and contains(@class,'oxd-button--label-danger')]",
+                        "score": 25,
+                        "isXPath": true
+                    },
+                    {
+                        "selector": "//div[contains(@class,'oxd-dialog-sheet--shadow')]/div[3]/button[2]",
+                        "score": 25,
+                        "isXPath": true
+                    }
+                ],
+                "frameInfo": []
+            },
+            "manual_interaction_tag": "jx",
+            "is_global_variable": false,
+            "is_global_variable_persist": false,
+            "global_variable_id": "",
+            "mobile_browser": false,
+            "wait_for_element_timeout": 0,
+            "failure_condition": "",
+            "parent_instruction_id": "",
+            "sub_instruction_obj": "{\"operation\": \"Click on the Yes, Delete button with trash icon\", \"thought\": \"The instruction requires click/input/change/sendkeys, which can be done by the Vision Agent.\", \"agent\": \"Vision Agent\", \"operation_dict\": {\"operation_type\": \"CLICK\"}}",
+            "_original_index": 22,
+            "global_operation_index": 22,
+            "is_replace": "true"
+        }
+    },
+    "parameters": {
+        "Anniversary_wishes": "wishing you happy Anniversary",
+        "booking_category": "FACIAL TREATMENTS",
+        "booking_note": "Note",
+        "booking_service": "Fourhead",
+        "booking_service_cost": "1000.00",
+        "booking_service_duration": "150min",
+        "Citrus_Illusion_cost": "72.00",
+        "Citrus_Illusion_duration": "60min",
+        "electronics": "Projector",
+        "email": "demo@bank.test",
+        "extra_gift_service": "FitSkin",
+        "extra_gift_service_category": " SkinCare",
+        "gift_delivery_hour": "06",
+        "gift_delivery_option": "Send later",
+        "gift_occasion": "Anniversary",
+        "gift_recipient_name": "recipient_name",
+        "new_user_DOB": "2000/12/12",
+        "new_user_first_name": "first_name",
+        "new_user_last_name": "last_name",
+        "new_user_pass": "!#%246Qw",
+        "password": "Correct$Horse7",
+        "policyme_address": "2210 Sunset Cove Circle",
+        "policyme_city": "Ontario",
+        "policyme_country": "Canada",
+        "policyme_dd": "13",
+        "policyme_firstLegalName": "Vipul",
+        "policyme_income": "100000",
+        "policyme_lastLegalName": "Srivastava",
+        "policyme_mm": "February",
+        "policyme_yyyy": "1995",
+        "services_list": "\"BODY TREATMENTS\" & \"PACKAGES\" & \"FLOAT\" & \"TREATMENTS\" & \"GROOMING SERVICES\" & \"HAIR SERVICES\" & \"LASER & BOTOX\" & \"MAKEUP\" & \"MESSAGE TREATMENTS\" & \"HANDS & FEET\" & \"SKIN CARE\" & \"SLIMMING\" & \"HAIR REMOVAL\" & \"FOOD\"",
+        "Studio_name": "Demo_Center",
+        "visaCard": "4111111111111111"
+    },
+    "variables": {
+        "Username_input_box_visible": "true",
+        "assertion_operand_d7c5e8624b3747b39d7260428831a1b3_0": "true",
+        "like_text_visible": "true",
+        "assertion_operand_46c43b8efe954d3c888981d96c019442_0": "true",
+        "zero_likes_visible": "true",
+        "assertion_operand_be23fbe7f4e04926970472deb6947085_0": "true"
+    },
+    "global_variables": [
+        {
+            "id": 2505,
+            "name": "advanced_analytics_value",
+            "value": "true",
+            "session_value": "true",
+            "is_persist": false,
+            "environment_id": 0,
+            "environment_name": "No Env"
+        },
+        {
+            "id": 834,
+            "name": "current_page_url_00651b",
+            "value": "https://demo.zenoti.com/webstoreNew/guest/631ac7f2-a8c6-408c-93d7-3effb88f6643?location=0a36ed1d-0140-445a-ab17-7fcb8a14de97",
+            "session_value": "https://demo.zenoti.com/webstoreNew/guest/631ac7f2-a8c6-408c-93d7-3effb88f6643?location=0a36ed1d-0140-445a-ab17-7fcb8a14de97",
+            "is_persist": true,
+            "environment_id": 0,
+            "environment_name": "No Env"
+        },
+        {
+            "id": 1279,
+            "name": "lambda_username",
+            "value": "shantanuw",
+            "session_value": "shantanuw",
+            "is_persist": false,
+            "environment_id": 0,
+            "environment_name": "No Env"
+        },
+        {
+            "id": 832,
+            "name": "page_url_a6df32",
+            "value": "https://demo.zenoti.com/webstoreNew/services/thankyou?location=0a36ed1d-0140-445a-ab17-7fcb8a14de97",
+            "session_value": "https://demo.zenoti.com/webstoreNew/services/thankyou?location=0a36ed1d-0140-445a-ab17-7fcb8a14de97",
+            "is_persist": true,
+            "environment_id": 0,
+            "environment_name": "No Env"
+        },
+        {
+            "id": 15,
+            "name": "trending_projector_price",
+            "value": "false",
+            "session_value": "false",
+            "is_persist": true,
+            "environment_id": 0,
+            "environment_name": "No Env"
+        },
+        {
+            "id": 835,
+            "name": "url_1",
+            "value": "https://demo.zenoti.com/webstoreNew/guest/631ac7f2-a8c6-408c-93d7-3effb88f6643?location=0a36ed1d-0140-445a-ab17-7fcb8a14de97",
+            "session_value": "https://demo.zenoti.com/webstoreNew/guest/631ac7f2-a8c6-408c-93d7-3effb88f6643?location=0a36ed1d-0140-445a-ab17-7fcb8a14de97",
+            "is_persist": true,
+            "environment_id": 0,
+            "environment_name": "No Env"
+        },
+        {
+            "id": 1280,
+            "name": "lt_username",
+            "value": "shantanuw",
+            "session_value": "shantanuw",
+            "is_persist": false,
+            "environment_id": 9,
+            "environment_name": "prod"
+        },
+        {
+            "id": 1278,
+            "name": "New",
+            "value": "something",
+            "session_value": "something",
+            "is_persist": false,
+            "environment_id": 9,
+            "environment_name": "prod"
+        },
+        {
+            "id": 1258,
+            "name": "page_url",
+            "value": "https://www.lambdatest.com",
+            "session_value": "https://www.lambdatest.com",
+            "is_persist": false,
+            "environment_id": 9,
+            "environment_name": "prod"
+        },
+        {
+            "id": 3532,
+            "name": "sap_url",
+            "value": "https://my426318.s4hana.cloud.sap/ui?sap-language=EN#Shell-home",
+            "session_value": "https://my426318.s4hana.cloud.sap/ui?sap-language=EN#Shell-home",
+            "is_persist": false,
+            "environment_id": 9,
+            "environment_name": "prod"
+        },
+        {
+            "id": 887,
+            "name": "Studio",
+            "value": "demo_center",
+            "session_value": "demo_center",
+            "is_persist": false,
+            "environment_id": 9,
+            "environment_name": "prod"
+        },
+        {
+            "id": 57,
+            "name": "url",
+            "value": "https://accounts.lambdatest.com/login",
+            "session_value": "https://accounts.lambdatest.com/login",
+            "is_persist": false,
+            "environment_id": 9,
+            "environment_name": "prod"
+        },
+        {
+            "id": 18,
+            "name": "username",
+            "value": "shantanuw@lambdatest.com",
+            "session_value": "shantanuw@lambdatest.com",
+            "is_persist": false,
+            "environment_id": 9,
+            "environment_name": "prod"
+        },
+        {
+            "id": 20,
+            "name": "username",
+            "value": "swali@lambdatest.com",
+            "session_value": "swali@lambdatest.com",
+            "is_persist": false,
+            "environment_id": 10,
+            "environment_name": "stage"
+        },
+        {
+            "id": 2198,
+            "name": "policyme_url",
+            "value": "https://dev.policyme.com/life/life/intent",
+            "session_value": "https://dev.policyme.com/life/life/intent",
+            "is_persist": false,
+            "environment_id": 289,
+            "environment_name": "dev"
+        },
+        {
+            "id": 2272,
+            "name": "policyme_url",
+            "value": "https://dev.policyme.com/life/life/intent",
+            "session_value": "https://dev.policyme.com/life/life/intent",
+            "is_persist": false,
+            "environment_id": 294,
+            "environment_name": "policyme_test"
+        }
+    ]
+}
