@@ -30,6 +30,11 @@ jobs:
 
       - name: Make CLI executable
         run: chmod +x ./hyperexecute
+      
+      - name: Update BUILD timestamp
+        run: |
+          chmod +x ./update_build_name.sh
+          ./update_build_name.sh
 
       - name: Run HyperExecute
         id: run-he
