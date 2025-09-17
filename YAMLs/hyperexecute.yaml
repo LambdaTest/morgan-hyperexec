@@ -63,3 +63,6 @@ testDiscovery:
 winTestRunnerCommand: .\run.bat '$test'
 linuxTestRunnerCommand: ./run.sh '$test'
 macTestRunnerCommand: ./run.sh '$test'
+
+
+report: true
