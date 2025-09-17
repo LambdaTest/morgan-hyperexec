@@ -8,13 +8,29 @@ on:
         required: true
         default: "50"
       HYPEREXEC_USERNAME:
-        description: "HyperExecute Username"
+        description: "LT Username"
         required: true
         default: "ltuser"
       HYPEREXEC_ACCESS_KEY:
         description: "HyperExecute Access Key"
         required: true
         default: "ltaccesskey"
+      ACCESSIBILITY:
+        description: "LT checks"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+      NETWORK:
+        description: "Enable network logs"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
 
 jobs:
   hyperexecute-run:
@@ -35,6 +51,18 @@ jobs:
         run: |
           chmod +x ./update_build_name.sh
           ./update_build_name.sh
+
+      - name: Apply env toggles to HyperExecute YAML
+        env:
+          ACCESSIBILITY: ${{ github.event.inputs.ACCESSIBILITY }}
+          NETWORK: ${{ github.event.inputs.NETWORK }}
+        run: |
+          set -euo pipefail
+          curl -fsSL -o yq https://github.com/mikefarah/yq/releases/download/v4.44.3/yq_linux_amd64
+          chmod +x ./yq
+          ./yq -i '.env.ACCESSIBILITY = strenv(ACCESSIBILITY) | .env.NETWORK = strenv(NETWORK)' YAMLs/hyperexecute.yaml
+          echo "ACCESSIBILITY set to: $(./yq '.env.ACCESSIBILITY' YAMLs/hyperexecute.yaml)"
+          echo "NETWORK set to: $(./yq '.env.NETWORK' YAMLs/hyperexecute.yaml)"
 
       - name: Run HyperExecute
         id: run-he
