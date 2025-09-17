@@ -12,11 +12,11 @@ on:
         required: true
         default: "ltuser"
       HYPEREXEC_ACCESS_KEY:
-        description: "HyperExecute Access Key"
+        description: "LT Access Key"
         required: true
         default: "ltaccesskey"
       ACCESSIBILITY:
-        description: "LT checks"
+        description: "Enable Accessibility"
         required: true
         default: "false"
         type: choice
@@ -24,7 +24,7 @@ on:
           - "false"
           - "true"
       NETWORK:
-        description: "Enable network logs"
+        description: "Enable Network logs"
         required: true
         default: "false"
         type: choice
